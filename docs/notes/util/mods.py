@@ -21,7 +21,7 @@ class UserList:
         self.users:list[User] = []
     def addUser(self, user:User) -> None:
         self.users.append(user)
-    def findUser(self, username:str) -> Optional[User]:
+    def getUser(self, username:str) -> Optional[User]:
         ret:Optional[User] = None
         found:bool         = False
         
@@ -42,8 +42,9 @@ class Vote:
 
 class VoteCollection:
     def __init__(self):
-        votes:list[Vote] = []
-    def addVote(self, vote:Vote)
+        self.votes:list[Vote] = []
+    def addVote(self, vote:Vote):
+        self.votes.append(vote)
     
 
 class Status:
@@ -51,9 +52,33 @@ class Status:
         self.included = included
         self.reason = reason
 
-
-
 class Version:
     def __init__(self, id:str):
         self.id = id
-        self.vot
+        self.votes = VoteCollection()
+    def hasId(self, id:str):
+        return id == self.id
+
+class VersionCollection:
+    def __init__(self):
+        self.versions:list[Version] = []
+    def getVersion(self, id:str) -> Optional[Version]:
+        ret:Optional[Version] = None
+        found:bool            = False
+        
+        for version in self.versions:
+            if (not found):
+                if version.hasId(id):
+                    found = True
+                    ret = version
+        
+        return ret
+
+class Mod:
+    def __init__(self, name:str, curseId:str):
+        self.name = name
+        self.curseId = curseId
+    def hasName(self, name:str):
+        return name == self.name
+    def hasCurseId(self, curseId):
+        return curseId == self.curseId
