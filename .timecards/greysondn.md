@@ -19,4 +19,5 @@
 - `02:30` Work on notes for content: Control
 - `03:34` //_Distracted_
 - `04:07` Work on notes for content: Control
-- `04:07` Work on notes for minecraft: Patchouli
+- `04:16` Work on notes for minecraft: mods
+- `14:04` //_Sleep_
