@@ -1,84 +1,96 @@
 # Python 3.11, I think
+from typing import Any
+from typing import cast
 from typing import Optional
 
 # so the way this works is
 # the mods kind of manage themselves as a data structure
 # and I'll just output a document later
-class User:
-    def __init__(self, name:str, aliases:set[str]):
-        self.name:str = name
+
+class SomeCollectible:
+    def __init__(self, id:str, aliases:set[str]):
+        self.id:str = id
         self.aliases:set[str] = aliases
-        self.aliases.add(self.name)
+        self.aliases.add(self.id)
     def answersTo(self, name:str):
         return name in self.aliases
     def addAlias(self, name:str):
         self.aliases.add(name)
     def canonize(self, name:str):
-        return self.name
+        return self.id
 
-class UserList:
+class SomeCollection:
     def __init__(self):
-        self.users:list[User] = []
-    def addUser(self, user:User) -> None:
-        self.users.append(user)
-    def getUser(self, username:str) -> Optional[User]:
-        ret:Optional[User] = None
-        found:bool         = False
+        self.contents:list[SomeCollectible] = []
+    def add(self, collectible:SomeCollectible):
+        self.contents.append(collectible)
+    def get(self, name:str) -> Optional[SomeCollectible]:
+        ret:Optional[SomeCollectible] = None
+        found:bool                    = False
         
-        for user in self.users:
+        for item in self.contents:
             if (not found):
-                if user.answersTo(username):
+                if item.answersTo(name):
                     found = True
-                    ret = user
+                    ret = item
         
         return ret
+    # I'm lazy, let's write a pair of operators for id lookup
+    
+    # conditional "in" support
+    def __contains__(self, name:str) -> bool:
+        ret:bool = False
+        
+        for item in self.contents:
+            if (not ret):
+                if item.answersTo(name):
+                    ret = True
+        
+        return ret
+    
+    # dict key accessor - well, if you contain something, you can access it
+    # via key
+    def __getitem__(self, key:str):
+        return self.get(key)
 
-class Vote:
-    def __init__(self, user:User, vote:bool, notes:str="", reason:str=""):
+class User(SomeCollectible):
+    # I've collected the entire class O.o
+    pass
+
+class UserList(SomeCollection):
+    def get(self, name:str) -> Optional[User]:
+        # literally the only change is a casting
+        return cast(User,super().get(name))
+
+class Vote(SomeCollectible):
+    def __init__(self, user:User, vote:bool, notes:list[str]=[], reason:str=""):
+        super().__init__(user.id, set())
         self.user:User = user
-        self.notes:str = notes
+        self.notes:list[str] = notes
         self.vote:bool = vote
         self.reason:str = reason
 
-class VoteCollection:
-    def __init__(self):
-        self.votes:list[Vote] = []
-    def addVote(self, vote:Vote):
-        self.votes.append(vote)
-    
+class VoteCollection(SomeCollection):
+    def get(self, userName:str) -> Optional[Vote]:
+        # literally the only change is a casting
+        return cast(Vote,super().get(userName))
 
 class Status:
     def __init__(self, included:bool, reason:str=""):
         self.included = included
         self.reason = reason
 
-class Version:
+class Version(SomeCollectible):
     def __init__(self, id:str):
-        self.id = id
+        super().__init__(id, set())
         self.votes = VoteCollection()
-    def hasId(self, id:str):
-        return id == self.id
+    def addVote(self, vote:Vote):
+        self.votes.add(vote)
 
-class VersionCollection:
-    def __init__(self):
-        self.versions:list[Version] = []
-    def getVersion(self, id:str) -> Optional[Version]:
-        ret:Optional[Version] = None
-        found:bool            = False
-        
-        for version in self.versions:
-            if (not found):
-                if version.hasId(id):
-                    found = True
-                    ret = version
-        
-        return ret
+class VersionCollection(SomeCollection):
+    # oops, I did it again
+    pass
 
-class Mod:
-    def __init__(self, name:str, curseId:str):
-        self.name = name
-        self.curseId = curseId
-    def hasName(self, name:str):
-        return name == self.name
-    def hasCurseId(self, curseId):
-        return curseId == self.curseId
+class Mod(SomeCollectible):
+    # right, this one at least has some unique properties
+    pass
