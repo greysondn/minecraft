@@ -47,9 +47,7 @@
 ## PC
 
 ## Control
-* Choc
-* Greysondn
-  * We originally talked about this as an explorable hub
+Has its own page: [Here](./imports/PC/control.md).
 
 ## Fallout 1
 * Doggo

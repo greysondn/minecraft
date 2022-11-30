@@ -15,4 +15,8 @@
 ## Wednesday 30 November
 
 - `02:25` //_Let's start a new day_
-- `02:56` Collect modlist out of chat logs
+- `02:26` Collect modlist out of chat logs
+- `02:30` Work on notes for content: Control
+- `03:34` //_Distracted_
+- `04:07` Work on notes for content: Control
+- `04:07` Work on notes for minecraft: Patchouli
