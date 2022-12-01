@@ -307,39 +307,79 @@ mods.add(Mod("varied mob textures", "399578")) # Mob eye candy
 # SorceryCraft - balanced magic?!!
 
 '''
-bugfix
+bugfix - bug
 ------
+https://www.curseforge.com/minecraft/mc-mods/advancements-debug
+https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix
 https://www.curseforge.com/minecraft/mc-mods/dispenser-crash-fix
+https://www.curseforge.com/minecraft/mc-mods/dupe-fixes
+https://www.curseforge.com/minecraft/mc-mods/fix-selected-item-text
+https://www.curseforge.com/minecraft/mc-mods/flyspeedpatch
+https://www.curseforge.com/minecraft/mc-mods/jukefix
 https://www.curseforge.com/minecraft/mc-mods/randompatches-forge
 https://www.curseforge.com/minecraft/mc-mods/recipebuffers
+https://www.curseforge.com/minecraft/mc-mods/spoorn-extras
 https://www.curseforge.com/minecraft/mc-mods/storage-drawers-crash-fix
+
+bugfix - sanity
+---------------
+https://www.curseforge.com/minecraft/mc-mods/slipperywalls                      Spiders can't climb ice
+https://www.curseforge.com/minecraft/mc-mods/splash-water                       bottled Water extinguishes fire
 
 building
 --------
 https://www.curseforge.com/minecraft/mc-mods/angel-block
+https://www.curseforge.com/minecraft/mc-mods/buildercraft                       C&B compatible
+https://www.curseforge.com/minecraft/mc-mods/chunkborders                       better chunkborders visualization
+https://www.curseforge.com/minecraft/mc-mods/colourplate
+https://www.curseforge.com/minecraft/mc-mods/dungeon-based-spawners
+https://www.curseforge.com/minecraft/mc-mods/icu
 https://www.curseforge.com/minecraft/mc-mods/light-blocks-for-java-1-14-4
 https://www.curseforge.com/minecraft/mc-mods/misc-tab
 https://www.curseforge.com/minecraft/mc-mods/obj-importer
+https://www.curseforge.com/minecraft/mc-mods/simplerail
+https://www.curseforge.com/minecraft/mc-mods/versatile-portals
+
+commands
+--------
+https://www.curseforge.com/minecraft/mc-mods/more-mc-commands
 
 curious
 -------
 https://www.curseforge.com/minecraft/mc-mods/block-log
 https://www.curseforge.com/minecraft/mc-mods/cartographer
 https://www.curseforge.com/minecraft/mc-mods/composing
+https://www.curseforge.com/minecraft/mc-mods/dummy-players                      how far did it go? Can I message them?
+https://www.curseforge.com/minecraft/mc-mods/dynamic-difficulty
 https://www.curseforge.com/minecraft/mc-mods/fantasy-mounts
+https://www.curseforge.com/minecraft/mc-mods/fishy-bears
 https://www.curseforge.com/minecraft/mc-mods/game-of-life-3d-forge
 https://www.curseforge.com/minecraft/mc-mods/glimmering-potions
+https://www.curseforge.com/minecraft/mc-mods/illumination
 https://www.curseforge.com/minecraft/mc-mods/linfox-dimension-stack
 https://www.curseforge.com/minecraft/mc-mods/magic-mirrors-forge
+https://www.curseforge.com/minecraft/mc-mods/mo-structures-forge
 https://www.curseforge.com/minecraft/mc-mods/modifiers
-https://www.curseforge.com/minecraft/mc-mods/portal-gels
+https://www.curseforge.com/minecraft/mc-mods/more-death-messages
 https://www.curseforge.com/minecraft/mc-mods/potion-snowballs
 https://www.curseforge.com/minecraft/mc-mods/proxies
+https://www.curseforge.com/minecraft/mc-mods/quiver-redux                       better than my favorite?
+https://www.curseforge.com/minecraft/mc-mods/real-sleep                         ticks process when you sleep
+https://www.curseforge.com/minecraft/mc-mods/risingtides                        mostly animals
+https://www.curseforge.com/minecraft/mc-mods/simplified-commands
 https://www.curseforge.com/minecraft/mc-mods/traverse-reforged
+https://www.curseforge.com/minecraft/mc-mods/virus-disease-mod                  covid-19 as a mod?
+https://www.curseforge.com/minecraft/mc-mods/wesleys-roguelike-dungeons
+https://www.curseforge.com/minecraft/mc-mods/feudal-weaponry-forge
 
 debug
 -----
+https://www.curseforge.com/minecraft/mc-mods/chunk-profiler
 https://www.curseforge.com/minecraft/mc-mods/packet-logger
+https://www.curseforge.com/minecraft/mc-mods/worldgeneration-profiler
+
+extensions - computer mods
+--------------------------
 
 eye candy
 ---------
@@ -348,20 +388,45 @@ https://www.curseforge.com/minecraft/mc-mods/soul-sand-grabbing-effect
 fabric
 ------
 https://www.curseforge.com/minecraft/mc-mods/damage-threshold
+https://www.curseforge.com/minecraft/mc-mods/dihydrogen-monoxide-reloaded
+https://www.curseforge.com/minecraft/mc-mods/mechanix
 https://www.curseforge.com/minecraft/mc-mods/mubble                             but it's mit licensed
+https://www.curseforge.com/minecraft/mc-mods/quadz
 
 holiday
 -------
 https://www.curseforge.com/minecraft/mc-mods/linden-files                       halloween
+https://www.curseforge.com/minecraft/mc-mods/snowed-in                          christmas
+
+imports - factorio
+------------------
+https://www.curseforge.com/minecraft/mc-mods/transport                          trains?
+
+imports - portal
+----------------
+https://www.curseforge.com/minecraft/mc-mods/portal-gels
+
+imports - risk of rain
+----------------------
+https://www.curseforge.com/minecraft/mc-mods/risk-of-rain-mod
 
 just computer craft it
 ----------------------
+https://www.curseforge.com/minecraft/mc-mods/communication                      chat box
+https://www.curseforge.com/minecraft/mc-mods/universal-power-monitor-upm        little harder but sure it's doable
 
 just craft tweak it
 -------------------
+https://www.curseforge.com/minecraft/mc-mods/craftable-bell
 https://www.curseforge.com/minecraft/mc-mods/craftable-nametags
+https://www.curseforge.com/minecraft/mc-mods/crafteos
+https://www.curseforge.com/minecraft/mc-mods/crafting-glitches
+https://www.curseforge.com/minecraft/mc-mods/dungeon-discs
 https://www.curseforge.com/minecraft/mc-mods/gudunify
 https://www.curseforge.com/minecraft/mc-mods/instant-unify
+https://www.curseforge.com/minecraft/mc-mods/make-trident
+https://www.curseforge.com/minecraft/mc-mods/mo-recipes-a-mod-by-skittlq
+https://www.curseforge.com/minecraft/mc-mods/pheonixs-craftable-nametags
 https://www.curseforge.com/minecraft/mc-mods/turtle-shell-drop
 https://www.curseforge.com/minecraft/mc-mods/unified-resources
 https://www.curseforge.com/minecraft/mc-mods/wool-to-string
@@ -371,14 +436,30 @@ just patchouli it
 https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-addon
 https://www.curseforge.com/minecraft/mc-mods/jei-professions
 https://www.curseforge.com/minecraft/mc-mods/just-enough-vehicles
+https://www.curseforge.com/minecraft/mc-mods/minecraftwikimod                   ARR, but you can't copyright pure facts
 https://www.curseforge.com/minecraft/mc-mods/patchouli-jam
+
+just reimplement it somehow
+---------------------------
+https://www.curseforge.com/minecraft/mc-mods/enderio-alloys                     Literally metal alloys
+https://www.curseforge.com/minecraft/mc-mods/soul-blaze
+https://www.curseforge.com/minecraft/mc-mods/xp-coins
 
 maybe should
 ------------
+https://curseforge.com/minecraft/mc-mods/wizards-animals
+https://www.curseforge.com/minecraft/mc-mods/ancient-animals
+https://www.curseforge.com/minecraft/mc-mods/better-drowning                    breathing, drowning, "And more"
 https://www.curseforge.com/minecraft/mc-mods/bobacraft
+https://www.curseforge.com/minecraft/mc-mods/bperipherals
+https://www.curseforge.com/minecraft/mc-mods/coffee-break                       coffee.
+https://www.curseforge.com/minecraft/mc-mods/curse
 https://www.curseforge.com/minecraft/mc-mods/datafixerslayer
+https://www.curseforge.com/minecraft/mc-mods/enchantable                        Enchantments by Mr. Crayfish
 https://www.curseforge.com/minecraft/mc-mods/extra-progressions                 storm
+https://www.curseforge.com/minecraft/mc-mods/factoriores
 https://www.curseforge.com/minecraft/mc-mods/ffs-fancy-fluid-storage
+https://www.curseforge.com/minecraft/mc-mods/herd-mentality
 https://www.curseforge.com/minecraft/mc-mods/mass-inscriber
 https://www.curseforge.com/minecraft/mc-mods/minecoprocessors
 https://www.curseforge.com/minecraft/mc-mods/modifiers
@@ -386,48 +467,79 @@ https://www.curseforge.com/minecraft/mc-mods/nbt-peripheral
 https://www.curseforge.com/minecraft/mc-mods/nosleep
 https://www.curseforge.com/minecraft/mc-mods/overworld-two-forge
 https://www.curseforge.com/minecraft/mc-mods/pet-revival
+https://www.curseforge.com/minecraft/mc-mods/pigawatts-reloaded                 I'm wondering if we can do this with Create?
 https://www.curseforge.com/minecraft/mc-mods/powah
+https://www.curseforge.com/minecraft/mc-mods/sbm-fluid-gun                      literally just a liquid gun
+https://www.curseforge.com/minecraft/mc-mods/simple-fried-egg-forge
+https://www.curseforge.com/minecraft/mc-mods/thirsty-water-forrge
+https://www.curseforge.com/minecraft/mc-mods/time-to-die                        Quite unique
 https://www.curseforge.com/minecraft/mc-mods/trashcans-reborn
+https://www.curseforge.com/minecraft/mc-mods/vanilla-biomes
 https://www.curseforge.com/minecraft/mc-mods/waystones2waypoints
+https://www.curseforge.com/minecraft/mc-mods/trap-chest                         Mimic
+https://www.curseforge.com/minecraft/mc-mods/create-addon                       Balance for armor and drill addons
+https://www.curseforge.com/minecraft/mc-mods/rereskillable                      lock using crap behind skills
+
 
 modpack util
 ------------
-https://www.curseforge.com/minecraft/mc-mods/betterpanoramas
-https://www.curseforge.com/minecraft/mc-mods/bigger-structures
-https://www.curseforge.com/minecraft/mc-mods/block-renderer
-https://www.curseforge.com/minecraft/mc-mods/carve-this
-https://www.curseforge.com/minecraft/mc-mods/datapackrecipemaker
-https://www.curseforge.com/minecraft/mc-mods/default-servers
-https://www.curseforge.com/minecraft/mc-mods/just-enough-effects
-https://www.curseforge.com/minecraft/mc-mods/mcdj
-https://www.curseforge.com/minecraft/mc-mods/random-title
-https://www.curseforge.com/minecraft/mc-mods/suffocate
-https://www.curseforge.com/minecraft/mc-mods/terra-world-generator
+https://www.curseforge.com/minecraft/mc-mods/betterpanoramas                    change title panorama
+https://www.curseforge.com/minecraft/mc-mods/bigger-structures                  remove structure block limit
+https://www.curseforge.com/minecraft/mc-mods/block-renderer                     create reference png of block on demand
+https://www.curseforge.com/minecraft/mc-mods/carve-this                         tell worldcarver to carve material
+https://www.curseforge.com/minecraft/mc-mods/datapackrecipemaker                make recipes via datapack
+https://www.curseforge.com/minecraft/mc-mods/default-servers                    ship servers via datapack
+https://www.curseforge.com/minecraft/mc-mods/just-enough-effects                data on status effects
+https://www.curseforge.com/minecraft/mc-mods/mcdj                               add songs as oggs
+https://www.curseforge.com/minecraft/mc-mods/random-title                       random title bar
+https://www.curseforge.com/minecraft/mc-mods/suffocate                          ???
+https://www.curseforge.com/minecraft/mc-mods/terra-world-generator              data driven world generation
+https://www.curseforge.com/minecraft/mc-mods/kubejs                             programmable mods
+https://www.curseforge.com/minecraft/mc-mods/jsmacros                           programmable mods
+https://www.curseforge.com/minecraft/mc-mods/harmful-stonecutters               stonecutters and "others" actually hurt player for standing on
+https://www.curseforge.com/minecraft/mc-mods/potion-stacker                     configurable potion stacking
+https://www.curseforge.com/minecraft/mc-mods/cauldron-recipes                   datapack cauldron recipes
+https://www.curseforge.com/minecraft/mc-mods/vault-research                     research-based locking system for mods
+https://www.curseforge.com/minecraft/mc-mods/rarities
+https://www.curseforge.com/minecraft/mc-mods/simple-machinery                   dead machinery
+https://www.curseforge.com/minecraft/mc-mods/mob-heads                          datapack mobheads
+
 
 no, but alternates to stuff we do use
 -------------------------------------
 https://www.curseforge.com/minecraft/mc-mods/blockrunner                        happy trails
-https://www.curseforge.com/minecraft/mc-mods/chunknogobyebye
+https://www.curseforge.com/minecraft/mc-mods/chunknogobyebye                    chickenchunk
+https://www.curseforge.com/minecraft/mc-mods/cryness-double-slabs               kleeslabs?
 https://www.curseforge.com/minecraft/mc-mods/fast-redstone-utilities            projectred
-https://www.curseforge.com/minecraft/mc-mods/travellers-map
-https://www.curseforge.com/minecraft/mc-mods/vanilladeathchest-forge
-
+https://www.curseforge.com/minecraft/mc-mods/forcefield                         securitycraft?
+https://www.curseforge.com/minecraft/mc-mods/travellers-map                     xaero
+https://www.curseforge.com/minecraft/mc-mods/vanilladeathchest-forge            corail
+https://www.curseforge.com/minecraft/mc-mods/voxelmap                           Xaero
 
 qol
 ---
 https://www.curseforge.com/minecraft/mc-mods/abacus
 https://www.curseforge.com/minecraft/mc-mods/actual-attack-speed
 https://www.curseforge.com/minecraft/mc-mods/better-minecart-rotation-forge
+https://www.curseforge.com/minecraft/mc-mods/cauldron-riptide
 https://www.curseforge.com/minecraft/mc-mods/coyotelib-double-jump
 https://www.curseforge.com/minecraft/mc-mods/hitmarker-forge
+https://www.curseforge.com/minecraft/mc-mods/pillagers                          you get villager loot by murdering pillagers
 https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold
 https://www.curseforge.com/minecraft/mc-mods/silencer
 https://www.curseforge.com/minecraft/mc-mods/startup-qol
+https://www.curseforge.com/minecraft/mc-mods/world-edit-axe-recipe              worldedit wand
+
+single object
+-------------
+https://www.curseforge.com/minecraft/mc-mods/postlamp                           lamp light to slap anywhere
 
 social
 ------
 https://www.curseforge.com/minecraft/mc-mods/chat-embeds
 https://www.curseforge.com/minecraft/mc-mods/door-knocker-forge
+https://www.curseforge.com/minecraft/mc-mods/forge-survival-spectator
+https://www.curseforge.com/minecraft/mc-mods/kirara
 
 unsorted
 --------
@@ -456,6 +568,7 @@ https://www.curseforge.com/minecraft/mc-mods/deer-mod
 https://www.curseforge.com/minecraft/mc-mods/detailedhp
 https://www.curseforge.com/minecraft/mc-mods/direbats-forge
 https://www.curseforge.com/minecraft/mc-mods/dndmc
+https://www.curseforge.com/minecraft/mc-mods/drill
 https://www.curseforge.com/minecraft/mc-mods/effect-enchantments
 https://www.curseforge.com/minecraft/mc-mods/entitled
 https://www.curseforge.com/minecraft/mc-mods/essential-features                 modpack lightning smelting
@@ -474,13 +587,19 @@ https://www.curseforge.com/minecraft/mc-mods/lost-trinkets
 https://www.curseforge.com/minecraft/mc-mods/lush-caves-and-axolotls            1.17.x backport
 https://www.curseforge.com/minecraft/mc-mods/mobswhynot
 https://www.curseforge.com/minecraft/mc-mods/mobtastic
+https://www.curseforge.com/minecraft/mc-mods/more-red                           we don't use it
+https://www.curseforge.com/minecraft/mc-mods/more-red-computercraft-integration we don't use more red
 https://www.curseforge.com/minecraft/mc-mods/more-wires
 https://www.curseforge.com/minecraft/mc-mods/morris-animal-mod
 https://www.curseforge.com/minecraft/mc-mods/nbt-advanced-tooltips
+https://www.curseforge.com/minecraft/mc-mods/no-bedrock
+https://www.curseforge.com/minecraft/mc-mods/odd-power                          unusual generators
 https://www.curseforge.com/minecraft/mc-mods/path-under-gates
 https://www.curseforge.com/minecraft/mc-mods/pew-pew-towers-forge-edition
 https://www.curseforge.com/minecraft/mc-mods/platos-transporters
 https://www.curseforge.com/minecraft/mc-mods/portal-blocks-remake
+https://www.curseforge.com/minecraft/mc-mods/rats
+https://www.curseforge.com/minecraft/mc-mods/rope-bridge
 https://www.curseforge.com/minecraft/mc-mods/scootys-luigis-mansion-mod
 https://www.curseforge.com/minecraft/mc-mods/shelf
 https://www.curseforge.com/minecraft/mc-mods/silent-gear
@@ -499,8 +618,9 @@ https://www.curseforge.com/minecraft/mc-mods/trevor-creatures-reborn
 https://www.curseforge.com/minecraft/mc-mods/two-players-one-horse
 https://www.curseforge.com/minecraft/mc-mods/variant16x-biomesyougo
 https://www.curseforge.com/minecraft/mc-mods/waila-harvestability
+https://www.curseforge.com/minecraft/mc-mods/witherutils-actor
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves
-
+https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-kaimyentity-reborn
 '''
 
 # pg 626
