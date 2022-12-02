@@ -307,6 +307,14 @@ mods.add(Mod("varied mob textures", "399578")) # Mob eye candy
 # SorceryCraft - balanced magic?!!
 
 '''
+absolutely
+----------
+https://www.curseforge.com/minecraft/mc-mods/dimension-stacking-rifts           dimension stacking
+https://www.curseforge.com/minecraft/mc-mods/open-loader                        forcefully loaded resource pack shipping
+https://www.curseforge.com/minecraft/mc-mods/you-cant-see-me-forge              100% clear glass, like oldschool zawa exhibit glass
+https://www.curseforge.com/minecraft/mc-mods/spare-parts                        modpack useless pieces
+https://www.curseforge.com/minecraft/mc-mods/noluck                             who needs luck anyway
+
 baubles et al
 -------------
 
@@ -323,39 +331,61 @@ https://www.curseforge.com/minecraft/mc-mods/randompatches-forge
 https://www.curseforge.com/minecraft/mc-mods/recipebuffers
 https://www.curseforge.com/minecraft/mc-mods/spoorn-extras
 https://www.curseforge.com/minecraft/mc-mods/storage-drawers-crash-fix
+https://www.curseforge.com/minecraft/mc-mods/semitranslucency-fix
+https://www.curseforge.com/minecraft/mc-mods/thread-safety
 
 bugfix - sanity
 ---------------
-https://www.curseforge.com/minecraft/mc-mods/slipperywalls                      Spiders can't climb ice
-https://www.curseforge.com/minecraft/mc-mods/splash-water                       bottled Water extinguishes fire
+https://www.curseforge.com/minecraft/mc-mods/loginshield
+https://www.curseforge.com/minecraft/mc-mods/hot-or-not                         burn players for carrying hot liquids
 https://www.curseforge.com/minecraft/mc-mods/jukefix                            Sound emits from center of jukebox
 https://www.curseforge.com/minecraft/mc-mods/real-sleep                         ticks process when you sleep
+https://www.curseforge.com/minecraft/mc-mods/slipperywalls                      Spiders can't climb ice
+https://www.curseforge.com/minecraft/mc-mods/splash-water                       bottled Water extinguishes fire
+https://www.curseforge.com/minecraft/mc-mods/towelette                          universalize waterlogging
+https://www.curseforge.com/minecraft/mc-mods/more-sound-config                  switch sound device at runtime
+https://www.curseforge.com/minecraft/mc-mods/villagerfollow                     villagers follow you if you have an emerald in your hand
 
 building
 --------
 https://www.curseforge.com/minecraft/mc-mods/angel-block
 https://www.curseforge.com/minecraft/mc-mods/buildercraft                       C&B compatible
+https://www.curseforge.com/minecraft/mc-mods/chisel                             chisel proper
 https://www.curseforge.com/minecraft/mc-mods/chunkborders                       better chunkborders visualization
 https://www.curseforge.com/minecraft/mc-mods/colourplate
 https://www.curseforge.com/minecraft/mc-mods/dungeon-based-spawners
 https://www.curseforge.com/minecraft/mc-mods/icu
 https://www.curseforge.com/minecraft/mc-mods/misc-tab
 https://www.curseforge.com/minecraft/mc-mods/obj-importer
+https://www.curseforge.com/minecraft/mc-mods/simple-chimney                     Actual chimney
 https://www.curseforge.com/minecraft/mc-mods/versatile-portals
+https://www.curseforge.com/minecraft/mc-mods/essential-modern-construction-block-32px-edition
+https://www.curseforge.com/minecraft/mc-mods/lantern-colors
+https://www.curseforge.com/minecraft/mc-mods/delicate-and-dainty
+
 
 building - light blocks
 -----------------------
 https://www.curseforge.com/minecraft/mc-mods/light-blocks-for-java-1-14-4
 https://www.curseforge.com/minecraft/mc-mods/light-block-forge
 https://www.curseforge.com/minecraft/mc-mods/light-it-up
+https://www.curseforge.com/minecraft/mc-mods/light-blocks-from-1-17
 
 building - sound
 ----------------
 https://www.curseforge.com/minecraft/mc-mods/clef
 
+changes - alarming to most players
+----------------------------------
+https://www.curseforge.com/minecraft/mc-mods/antiportals                        disable end and nether portals
+
 commands
 --------
 https://www.curseforge.com/minecraft/mc-mods/more-mc-commands
+
+config
+------
+https://www.curseforge.com/minecraft/mc-mods/start-script
 
 curious
 -------
@@ -386,8 +416,10 @@ https://www.curseforge.com/minecraft/mc-mods/feudal-weaponry-forge
 debug
 -----
 https://www.curseforge.com/minecraft/mc-mods/chunk-profiler
+https://www.curseforge.com/minecraft/mc-mods/craftdumper                        it's kind of like tellme, just not the same.
 https://www.curseforge.com/minecraft/mc-mods/packet-logger
 https://www.curseforge.com/minecraft/mc-mods/worldgeneration-profiler
+https://www.curseforge.com/minecraft/mc-mods/blame
 
 enchantments
 ------------
@@ -402,10 +434,16 @@ https://www.curseforge.com/minecraft/mc-mods/mass-inscriber                     
 extensions - computer mods
 --------------------------
 https://www.curseforge.com/minecraft/mc-mods/bperipherals
+https://www.curseforge.com/minecraft/mc-mods/storage-for-computercraft          integrate AE2
 
 extensions - create
 -------------------
 https://www.curseforge.com/minecraft/mc-mods/create-addon                       Balance for armor and drill addons
+https://www.curseforge.com/minecraft/mc-mods/cogwheel-tweaker                   tweak cogwheels
+
+extensions - farmer's delight
+-----------------------------
+https://www.curseforge.com/minecraft/mc-mods/the-irregular-chef                 integration. Environmental, Neapolitan, upgrae aquatic, atmospheric, and so on mods I never install.
 
 eye candy
 ---------
@@ -419,11 +457,17 @@ https://www.curseforge.com/minecraft/mc-mods/dihydrogen-monoxide-reloaded
 https://www.curseforge.com/minecraft/mc-mods/mechanix
 https://www.curseforge.com/minecraft/mc-mods/mubble                             but it's mit licensed
 https://www.curseforge.com/minecraft/mc-mods/quadz
+https://www.curseforge.com/minecraft/mc-mods/attach-leads-to-logs               fabric - tie off animal leads to logs
+https://www.curseforge.com/minecraft/mc-mods/bow-tie                            write datapacks in non-json formats
 
 holiday
 -------
 https://www.curseforge.com/minecraft/mc-mods/linden-files                       halloween
 https://www.curseforge.com/minecraft/mc-mods/snowed-in                          christmas
+
+holiday - halloween
+-------------------
+https://www.curseforge.com/minecraft/mc-mods/projectfrightmod
 
 imports - 1.17
 --------------
@@ -436,6 +480,10 @@ imports - factorio
 https://www.curseforge.com/minecraft/mc-mods/transport                          trains?
 https://www.curseforge.com/minecraft/mc-mods/simplerail                         trains?
 https://www.curseforge.com/minecraft/mc-mods/factoriores                        drills? conveyor belts? pickers?
+
+imports - the legend of zelda
+-----------------------------
+https://www.curseforge.com/minecraft/mc-mods/heart-container-mod                actual heart containers as upgrading hp
 
 imports - luigi's mansion
 -------------------------
@@ -450,6 +498,10 @@ imports - risk of rain
 ----------------------
 https://www.curseforge.com/minecraft/mc-mods/risk-of-rain-mod
 
+imports - scp
+-------------
+https://www.curseforge.com/minecraft/mc-mods/scp-555                            scp 00555 "corpse magnet"
+
 imports - Steven Universe
 -------------------------
 https://www.curseforge.com/minecraft/mc-mods/crystal-universe                   steven universe
@@ -457,15 +509,19 @@ https://www.curseforge.com/minecraft/mc-mods/crystal-universe                   
 just computer craft it
 ----------------------
 https://www.curseforge.com/minecraft/mc-mods/communication                      chat box
+https://www.curseforge.com/minecraft/mc-mods/smart-observer                     observer, but for specific blocks
 https://www.curseforge.com/minecraft/mc-mods/universal-power-monitor-upm        little harder but sure it's doable
 
 just craft tweak it
 -------------------
+https://www.curseforge.com/minecraft/mc-mods/more-baked-foods
+https://www.curseforge.com/minecraft/mc-mods/spill
 https://www.curseforge.com/minecraft/mc-mods/craftable-bell
 https://www.curseforge.com/minecraft/mc-mods/craftable-nametags
 https://www.curseforge.com/minecraft/mc-mods/crafteos
 https://www.curseforge.com/minecraft/mc-mods/crafting-glitches
 https://www.curseforge.com/minecraft/mc-mods/dungeon-discs
+https://www.curseforge.com/minecraft/mc-mods/easypaths
 https://www.curseforge.com/minecraft/mc-mods/gudunify
 https://www.curseforge.com/minecraft/mc-mods/instant-unify
 https://www.curseforge.com/minecraft/mc-mods/make-trident
@@ -474,6 +530,7 @@ https://www.curseforge.com/minecraft/mc-mods/pheonixs-craftable-nametags
 https://www.curseforge.com/minecraft/mc-mods/turtle-shell-drop
 https://www.curseforge.com/minecraft/mc-mods/unified-resources
 https://www.curseforge.com/minecraft/mc-mods/wool-to-string
+https://www.curseforge.com/minecraft/mc-mods/apple-pie-ported
 
 just patchouli it
 -----------------
@@ -523,9 +580,11 @@ https://www.curseforge.com/minecraft/mc-mods/colds-ostriches-forge              
 https://www.curseforge.com/minecraft/mc-mods/morris-animal-mod
 https://curseforge.com/minecraft/mc-mods/wizards-animals
 https://www.curseforge.com/minecraft/mc-mods/ancient-animals
+https://www.curseforge.com/minecraft/mc-mods/better-wilderness
 
 mobs - behaviors
 ----------------
+https://www.curseforge.com/minecraft/mc-mods/progressive-aggressivity           scaling aggressive behavior
 https://www.curseforge.com/minecraft/mc-mods/fishy-bears                        polar bears go fishing
 https://www.curseforge.com/minecraft/mc-mods/herd-mentality                     animals react as a herd
 
@@ -536,6 +595,9 @@ https://www.curseforge.com/minecraft/mc-mods/trap-chest                         
 
 modpack util
 ------------
+https://www.curseforge.com/minecraft/mc-mods/nbt-ingredient-predicate           recipe partial predicate matching
+https://www.curseforge.com/minecraft/mc-mods/mobserve                           includes a "looking at" trigger
+https://www.curseforge.com/minecraft/mc-mods/simple-museum                      resource packed museum displays
 https://www.curseforge.com/minecraft/mc-mods/bigger-structures                  remove structure block limit
 https://www.curseforge.com/minecraft/mc-mods/block-renderer                     create reference png of block on demand
 https://www.curseforge.com/minecraft/mc-mods/carve-this                         tell worldcarver to carve material
@@ -558,9 +620,12 @@ https://www.curseforge.com/minecraft/mc-mods/essential-features                 
 
 modpack util - branding
 -----------------------
+https://www.curseforge.com/minecraft/mc-mods/better-game-menu
 https://www.curseforge.com/minecraft/mc-mods/betterpanoramas                    change title panorama
+https://www.curseforge.com/minecraft/mc-mods/modern-loading-screen
 https://www.curseforge.com/minecraft/mc-mods/random-title                       random title bar
 https://www.curseforge.com/minecraft/mc-mods/custom-start-screen
+https://www.curseforge.com/minecraft/mc-mods/spiffy-hud-forge
 
 no, but alternates to stuff we do use
 -------------------------------------
@@ -572,6 +637,7 @@ https://www.curseforge.com/minecraft/mc-mods/forcefield                         
 https://www.curseforge.com/minecraft/mc-mods/travellers-map                     xaero
 https://www.curseforge.com/minecraft/mc-mods/vanilladeathchest-forge            corail
 https://www.curseforge.com/minecraft/mc-mods/voxelmap                           Xaero
+https://www.curseforge.com/minecraft/mc-mods/colds-block-detector               the one scanner storm never uses
 
 qol
 ---
@@ -582,15 +648,18 @@ https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge
 
 qol - basic mechanics
 ----------------------
+https://www.curseforge.com/minecraft/mc-mods/better-jumping                     hold velocity through a jump
 https://www.curseforge.com/minecraft/mc-mods/coyotelib-double-jump
 https://www.curseforge.com/minecraft/mc-mods/better-minecart-rotation-forge
+https://www.curseforge.com/minecraft/mc-mods/sbm-punt-animal                    push animals around
 
 qol - data exposure
 -------------------
 https://www.curseforge.com/minecraft/mc-mods/actual-attack-speed                better dps calc in inventory
 https://www.curseforge.com/minecraft/mc-mods/hitmarker-forge
-https://www.curseforge.com/minecraft/mc-mods/startup-qol
 https://www.curseforge.com/minecraft/mc-mods/nbt-advanced-tooltips
+https://www.curseforge.com/minecraft/mc-mods/startup-qol
+https://www.curseforge.com/minecraft/mc-mods/torch-optimizer                    light levels
 
 qol - loot
 ----------
@@ -606,7 +675,7 @@ qol - worldgen
 --------------
 https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold
 https://www.curseforge.com/minecraft/mc-mods/no-bedrock                         destroys bedrock layer entirely
-
+https://www.curseforge.com/minecraft/mc-mods/ore-recursion-forge                (vanilla) ore can also gen inside sand, gravel, dirt
 qol - worldedit
 ---------------
 https://www.curseforge.com/minecraft/mc-mods/world-edit-axe-recipe              worldedit wand
@@ -625,6 +694,10 @@ https://www.curseforge.com/minecraft/mc-mods/kirara
 social - death
 --------------
 https://www.curseforge.com/minecraft/mc-mods/deathquotes-death-quotes
+
+worldgen - biomes (vanilla)
+---------------------------
+https://www.curseforge.com/minecraft/mc-mods/voyage
 
 unsorted
 --------

@@ -8,7 +8,7 @@
 - `08:54` //_Sleep_
 - `17:50` //_Awake_
 - `17:55` Collect modlist out of chat logs
-- `18:34` //_Bathroom and incense_
+- `18:34` //_Bathroom and Incense_
 - `18:47` Collect modlist out of chat logs
 - `20:00` //_Unsure, cutting time here_
 
@@ -25,4 +25,17 @@
 - `18:45` Work on notes for minecraft: mods
 - `21:04` //_Food the wuff_
 - `21:47` Work on datapack: 1.16.5
-- 23:30 work on notes for minecraft:mods
+- `23:30` work on notes for minecraft:mods
+- `24:00` //_day ends_
+
+## Thursday 01 December
+
+- `00:00` //_day begins_
+- `00:00` work on notes for minecraft:mods
+- `00:56` //_Bathroom and Food_
+- `03:25` Work on notes for minecraft: mods
+- `11:14` //_Sleep_
+
+## Friday 02 December
+
+- `0:17` Work on database design and data export
