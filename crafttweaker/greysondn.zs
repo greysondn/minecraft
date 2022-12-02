@@ -237,7 +237,7 @@ function gdn_listMods() as void
             
             #fluids
             # we only need the ids - other places can do extensive data
-            var _swplist4 = _mod.items;
+            var _swplist4 = _mod.fluids;
             
             if (!_swplist4.isEmpty)
             {
