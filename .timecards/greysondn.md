@@ -38,4 +38,5 @@
 
 ## Friday 02 December
 
-- `0:17` Work on database design and data export
+- `00:17` Work on database design and data export
+- `07:51` swapping repos, only count half the time later on.

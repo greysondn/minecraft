@@ -81,7 +81,82 @@ function gdn_listBlocks() as void
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
 
+##
+# lists the loaded blocks
+function gdn_listBlockStates() as void
+{
+    # indents, so I don't have to keep typing longer and longer lines.
+    var _i0 = "";
+    var _i1 = "    ";
+    var _i2 = _i1 + _i1;
+    var _i3 = _i2 + _i1;
+    var _i4 = _i3 + _i1;
+    var _i5 = _i4 + _i1;
+    var _i6 = _i5 + _i1;
+    var _i7 = _i6 + _i1;
+    var _i8 = _i7 + _i1;
+    var _i9 = _i8 + _i1;
 
+    # block
+    # canProvidePower
+    # commandString
+    # hardness
+    # harvestLevel
+    # harvestTool
+    # hasTileEntity
+    # isSlime
+    # isSolid
+    # isSticky
+    # lightLevel
+    # propertyNames
+    # ticksRandomly
+
+    print("blockstates:");
+    
+    for _z in game.blockStates
+    {
+        println(_i0 + "-");
+        println(_i1 + "registryName:          " + _z.registryName.toString());
+
+        if (_block.harvestTool != null)
+        {
+            println(_i1 + "harvestTool:           " + _block.harvestTool.name); # of the default blockstate
+        }
+        println(_i1 + "jumpFactor:            " + _block.jumpFactor);
+        println(_i1 + "lootTable:             " + _block.lootTable);
+        println(_i1 + "slipperiness:          " + _block.slipperiness);
+        println(_i1 + "speedFactor:           " + _block.speedFactor);
+        println(_i1 + "variableOpacity:       " + _block.variableOpacity);
+        println(_i1 + "material:              " + _block.material.commandString);
+        println(_i1 + "defaultState:          " + _block.defaultState.commandString);
+
+        # validstates
+        # we only need the ids - other places can do extensive data
+        var _swplist1 = _block.validStates;
+        
+        if (!_swplist1.isEmpty)
+        {
+            println(_i1 + "validStates:");
+            
+            for _swp1 in _swplist1
+            {
+                println(_i2 + "- " + _swp1.commandString);
+            }
+        }
+
+        # tags
+        # we only need the ids - other places can do extensive data
+        var _swplist2 = _block.tags;
+
+        println(_i1 + "tags:");
+        
+        for _swp2 in _swplist2
+        {
+            println(_i2 + "- " + _swp2.id.toString());
+        }
+
+    }
+}
 
 
 
