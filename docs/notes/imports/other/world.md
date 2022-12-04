@@ -92,6 +92,9 @@ USA         - WV                    - Philippi          -    397
 USA         - WV                    - Belington         -    519  
 USA         - WV                    - Junior            -    532  
 
+FO1 - south of sacramento, north of la, "the hub"
+F02 - Redding is in there, 
+
 Notes:
 
 * I've sloppily rounded here. Deal with it.
