@@ -309,11 +309,56 @@ mods.add(Mod("varied mob textures", "399578")) # Mob eye candy
 '''
 absolutely
 ----------
+https://www.curseforge.com/minecraft/mc-mods/advanced-chimneys
+https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
+https://www.curseforge.com/minecraft/mc-mods/ageing-spawners
+https://www.curseforge.com/minecraft/mc-mods/aquaculture
+https://www.curseforge.com/minecraft/mc-mods/arrows-info
+https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded
+https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters
+https://www.curseforge.com/minecraft/mc-mods/better-muffling
+https://www.curseforge.com/minecraft/mc-mods/botania
+https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
+https://www.curseforge.com/minecraft/mc-mods/colds-magic-mirror-forge
+https://www.curseforge.com/minecraft/mc-mods/color-me-outlines
+https://www.curseforge.com/minecraft/mc-mods/cultures
+https://www.curseforge.com/minecraft/mc-mods/custom-skyboxes
 https://www.curseforge.com/minecraft/mc-mods/dimension-stacking-rifts           dimension stacking
-https://www.curseforge.com/minecraft/mc-mods/open-loader                        forcefully loaded resource pack shipping
-https://www.curseforge.com/minecraft/mc-mods/you-cant-see-me-forge              100% clear glass, like oldschool zawa exhibit glass
-https://www.curseforge.com/minecraft/mc-mods/spare-parts                        modpack useless pieces
+https://www.curseforge.com/minecraft/mc-mods/discernment
+https://www.curseforge.com/minecraft/mc-mods/dont-run-with-scissors
+https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged
+https://www.curseforge.com/minecraft/mc-mods/dynamictrees
+https://www.curseforge.com/minecraft/mc-mods/elemental-combat
+https://www.curseforge.com/minecraft/mc-mods/elenai-dodge-2
+https://www.curseforge.com/minecraft/mc-mods/everyday-commands
+https://www.curseforge.com/minecraft/mc-mods/firework-rocket-duration
+https://www.curseforge.com/minecraft/mc-mods/flux-networks
+https://www.curseforge.com/minecraft/mc-mods/hardcore-torches-forge
+https://www.curseforge.com/minecraft/mc-mods/in-control
+https://www.curseforge.com/minecraft/mc-mods/infinite-pollution-filter
+https://www.curseforge.com/minecraft/mc-mods/itemphysic
+https://www.curseforge.com/minecraft/mc-mods/jei-integration
+https://www.curseforge.com/minecraft/mc-mods/kobolds
+https://www.curseforge.com/minecraft/mc-mods/krypton-reforged
+https://www.curseforge.com/minecraft/mc-mods/langsplit
+https://www.curseforge.com/minecraft/mc-mods/linkingbooks
+https://www.curseforge.com/minecraft/mc-mods/mambience
 https://www.curseforge.com/minecraft/mc-mods/noluck                             who needs luck anyway
+https://www.curseforge.com/minecraft/mc-mods/open-loader                        forcefully loaded resource pack shipping
+https://www.curseforge.com/minecraft/mc-mods/paragliders
+https://www.curseforge.com/minecraft/mc-mods/pehkui
+https://www.curseforge.com/minecraft/mc-mods/pollutant-pump
+https://www.curseforge.com/minecraft/mc-mods/pollutant-pump
+https://www.curseforge.com/minecraft/mc-mods/pollution-of-the-realms
+https://www.curseforge.com/minecraft/mc-mods/quickstack
+https://www.curseforge.com/minecraft/mc-mods/radon
+https://www.curseforge.com/minecraft/mc-mods/rpg-parties
+https://www.curseforge.com/minecraft/mc-mods/spare-parts                        modpack useless pieces
+https://www.curseforge.com/minecraft/mc-mods/tax-free-levels
+https://www.curseforge.com/minecraft/mc-mods/textrues-rubidium-options
+https://www.curseforge.com/minecraft/mc-mods/total-darkness
+https://www.curseforge.com/minecraft/mc-mods/worm-industries
+https://www.curseforge.com/minecraft/mc-mods/you-cant-see-me-forge              100% clear glass, like oldschool zawa exhibit glass
 
 baubles et al
 -------------
@@ -323,16 +368,23 @@ bugfix - bug
 ------------
 https://www.curseforge.com/minecraft/mc-mods/advancements-debug
 https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix
+https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks
 https://www.curseforge.com/minecraft/mc-mods/dispenser-crash-fix
 https://www.curseforge.com/minecraft/mc-mods/dupe-fixes
+https://www.curseforge.com/minecraft/mc-mods/erroring-entity-remover
+https://www.curseforge.com/minecraft/mc-mods/fastopenlinksandfolders
 https://www.curseforge.com/minecraft/mc-mods/fix-selected-item-text
 https://www.curseforge.com/minecraft/mc-mods/flyspeedpatch
+https://www.curseforge.com/minecraft/mc-mods/keepheadnames
+https://www.curseforge.com/minecraft/mc-mods/raised
 https://www.curseforge.com/minecraft/mc-mods/randompatches-forge
 https://www.curseforge.com/minecraft/mc-mods/recipebuffers
+https://www.curseforge.com/minecraft/mc-mods/semitranslucency-fix
+https://www.curseforge.com/minecraft/mc-mods/smoothcoasters
 https://www.curseforge.com/minecraft/mc-mods/spoorn-extras
 https://www.curseforge.com/minecraft/mc-mods/storage-drawers-crash-fix
-https://www.curseforge.com/minecraft/mc-mods/semitranslucency-fix
 https://www.curseforge.com/minecraft/mc-mods/thread-safety
+https://www.curseforge.com/minecraft/mc-mods/too-fast
 
 bugfix - sanity
 ---------------
@@ -548,25 +600,44 @@ https://www.curseforge.com/minecraft/mc-mods/xp-coins
 
 maybe should
 ------------
+https://www.curseforge.com/minecraft/mc-mods/architects-palette
+https://www.curseforge.com/minecraft/mc-mods/auto-look
+https://www.curseforge.com/minecraft/mc-mods/better-advancements
+https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus
 https://www.curseforge.com/minecraft/mc-mods/better-drowning                    breathing, drowning, "And more"
 https://www.curseforge.com/minecraft/mc-mods/bobacraft
+https://www.curseforge.com/minecraft/mc-mods/callable-horses
 https://www.curseforge.com/minecraft/mc-mods/coffee-break                       coffee.
 https://www.curseforge.com/minecraft/mc-mods/datafixerslayer
 https://www.curseforge.com/minecraft/mc-mods/extra-progressions                 storm
+https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs
 https://www.curseforge.com/minecraft/mc-mods/ffs-fancy-fluid-storage
+https://www.curseforge.com/minecraft/mc-mods/grieflogger
+https://www.curseforge.com/minecraft/mc-mods/inventorio-forge
+https://www.curseforge.com/minecraft/mc-mods/kaupenjoes-all-consuming-grey-goo
+https://www.curseforge.com/minecraft/mc-mods/lootr
+https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded
 https://www.curseforge.com/minecraft/mc-mods/minecoprocessors
+https://www.curseforge.com/minecraft/mc-mods/mobs-attempt-parkour
+https://www.curseforge.com/minecraft/mc-mods/modern-elevators-and-escalators
 https://www.curseforge.com/minecraft/mc-mods/modifiers
 https://www.curseforge.com/minecraft/mc-mods/nbt-peripheral
 https://www.curseforge.com/minecraft/mc-mods/nosleep
 https://www.curseforge.com/minecraft/mc-mods/overworld-two-forge
 https://www.curseforge.com/minecraft/mc-mods/pet-revival
+https://www.curseforge.com/minecraft/mc-mods/pipez
+https://www.curseforge.com/minecraft/mc-mods/pistorder
+https://www.curseforge.com/minecraft/mc-mods/pixelmon
+https://www.curseforge.com/minecraft/mc-mods/projecte-integration               "but why?"
+https://www.curseforge.com/minecraft/mc-mods/rawore
+https://www.curseforge.com/minecraft/mc-mods/rereskillable                      lock using crap behind skills
 https://www.curseforge.com/minecraft/mc-mods/sbm-fluid-gun                      literally just a liquid gun
 https://www.curseforge.com/minecraft/mc-mods/simple-fried-egg-forge
 https://www.curseforge.com/minecraft/mc-mods/thirsty-water-forrge
 https://www.curseforge.com/minecraft/mc-mods/trashcans-reborn
+https://www.curseforge.com/minecraft/mc-mods/triumph
 https://www.curseforge.com/minecraft/mc-mods/vanilla-biomes
 https://www.curseforge.com/minecraft/mc-mods/waystones2waypoints
-https://www.curseforge.com/minecraft/mc-mods/rereskillable                      lock using crap behind skills
 
 mobs
 ----
@@ -595,28 +666,54 @@ https://www.curseforge.com/minecraft/mc-mods/trap-chest                         
 
 modpack util
 ------------
-https://www.curseforge.com/minecraft/mc-mods/nbt-ingredient-predicate           recipe partial predicate matching
-https://www.curseforge.com/minecraft/mc-mods/mobserve                           includes a "looking at" trigger
-https://www.curseforge.com/minecraft/mc-mods/simple-museum                      resource packed museum displays
 https://www.curseforge.com/minecraft/mc-mods/bigger-structures                  remove structure block limit
 https://www.curseforge.com/minecraft/mc-mods/block-renderer                     create reference png of block on demand
+https://www.curseforge.com/minecraft/mc-mods/block-swap
+https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
+https://www.curseforge.com/minecraft/mc-mods/build-guide
 https://www.curseforge.com/minecraft/mc-mods/carve-this                         tell worldcarver to carve material
+https://www.curseforge.com/minecraft/mc-mods/cauldron-recipes                   datapack cauldron recipes
+https://www.curseforge.com/minecraft/mc-mods/colormatic
+https://www.curseforge.com/minecraft/mc-mods/creative-tweaker
+https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem
+https://www.curseforge.com/minecraft/mc-mods/custom-machinery
 https://www.curseforge.com/minecraft/mc-mods/datapackrecipemaker                make recipes via datapack
 https://www.curseforge.com/minecraft/mc-mods/default-servers                    ship servers via datapack
+https://www.curseforge.com/minecraft/mc-mods/devside-tools
+https://www.curseforge.com/minecraft/mc-mods/dimensional-paintings
+https://www.curseforge.com/minecraft/mc-mods/essential-features                 modpack lightning smelting
+https://www.curseforge.com/minecraft/mc-mods/fast-projectile-fix
+https://www.curseforge.com/minecraft/mc-mods/framedblocks
+https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge
+https://www.curseforge.com/minecraft/mc-mods/game-stages-conditions
+https://www.curseforge.com/minecraft/mc-mods/harmful-stonecutters               stonecutters and "others" actually hurt player for standing on
+https://www.curseforge.com/minecraft/mc-mods/infinity-item-editor
+https://www.curseforge.com/minecraft/mc-mods/jsmacros                           programmable mods
 https://www.curseforge.com/minecraft/mc-mods/just-enough-effects                data on status effects
+https://www.curseforge.com/minecraft/mc-mods/kaleido
+https://www.curseforge.com/minecraft/mc-mods/kubejs                             programmable mods
+https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips
 https://www.curseforge.com/minecraft/mc-mods/mcdj                               add songs as oggs
+https://www.curseforge.com/minecraft/mc-mods/mob-heads                          datapack mobheads
+https://www.curseforge.com/minecraft/mc-mods/mobifier
+https://www.curseforge.com/minecraft/mc-mods/mobserve                           includes a "looking at" trigger
+https://www.curseforge.com/minecraft/mc-mods/modern-flat-colored-blocks
+https://www.curseforge.com/minecraft/mc-mods/multiblocked
+https://www.curseforge.com/minecraft/mc-mods/music-triggers
+https://www.curseforge.com/minecraft/mc-mods/nbt-ingredient-predicate           recipe partial predicate matching
+https://www.curseforge.com/minecraft/mc-mods/ob-tooltips
+https://www.curseforge.com/minecraft/mc-mods/potion-stacker                     configurable potion stacking
+https://www.curseforge.com/minecraft/mc-mods/quests-additions
+https://www.curseforge.com/minecraft/mc-mods/rarities
+https://www.curseforge.com/minecraft/mc-mods/resourceful-bees
+https://www.curseforge.com/minecraft/mc-mods/set-my-name
+https://www.curseforge.com/minecraft/mc-mods/simple-machinery                   dead machinery
+https://www.curseforge.com/minecraft/mc-mods/simple-museum                      resource packed museum displays
 https://www.curseforge.com/minecraft/mc-mods/suffocate                          ???
 https://www.curseforge.com/minecraft/mc-mods/terra-world-generator              data driven world generation
-https://www.curseforge.com/minecraft/mc-mods/kubejs                             programmable mods
-https://www.curseforge.com/minecraft/mc-mods/jsmacros                           programmable mods
-https://www.curseforge.com/minecraft/mc-mods/harmful-stonecutters               stonecutters and "others" actually hurt player for standing on
-https://www.curseforge.com/minecraft/mc-mods/potion-stacker                     configurable potion stacking
-https://www.curseforge.com/minecraft/mc-mods/cauldron-recipes                   datapack cauldron recipes
+https://www.curseforge.com/minecraft/mc-mods/time-stages
+https://www.curseforge.com/minecraft/mc-mods/tips
 https://www.curseforge.com/minecraft/mc-mods/vault-research                     research-based locking system for mods
-https://www.curseforge.com/minecraft/mc-mods/rarities
-https://www.curseforge.com/minecraft/mc-mods/simple-machinery                   dead machinery
-https://www.curseforge.com/minecraft/mc-mods/mob-heads                          datapack mobheads
-https://www.curseforge.com/minecraft/mc-mods/essential-features                 modpack lightning smelting
 
 modpack util - branding
 -----------------------
@@ -695,17 +792,28 @@ social - death
 --------------
 https://www.curseforge.com/minecraft/mc-mods/deathquotes-death-quotes
 
+Veganism
+https://www.curseforge.com/minecraft/mc-mods/no-breeding
+https://www.curseforge.com/minecraft/mc-mods/spare-the-animals
+
 worldgen - biomes (vanilla)
 ---------------------------
 https://www.curseforge.com/minecraft/mc-mods/voyage
 
 unsorted
 --------
+https://www.curseforge.com/minecraft/mc-mods/a-man-with-plushies
+https://www.curseforge.com/minecraft/mc-mods/aardvarks-better-bovines
+https://www.curseforge.com/minecraft/mc-mods/aardvarks-retro-party-stuff
 https://www.curseforge.com/minecraft/mc-mods/abyssal-depths
 https://www.curseforge.com/minecraft/mc-mods/aggressive-furries
 https://www.curseforge.com/minecraft/mc-mods/apophis
 https://www.curseforge.com/minecraft/mc-mods/arrowheads
+https://www.curseforge.com/minecraft/mc-mods/atlantis
+https://www.curseforge.com/minecraft/mc-mods/back-tools
 https://www.curseforge.com/minecraft/mc-mods/banneradditions                    modpack
+https://www.curseforge.com/minecraft/mc-mods/blueflame
+https://www.curseforge.com/minecraft/mc-mods/bobby-forge
 https://www.curseforge.com/minecraft/mc-mods/book-display
 https://www.curseforge.com/minecraft/mc-mods/borkler
 https://www.curseforge.com/minecraft/mc-mods/chain-suspension-forge
@@ -713,49 +821,84 @@ https://www.curseforge.com/minecraft/mc-mods/charm-reforged
 https://www.curseforge.com/minecraft/mc-mods/charmonium-reforged
 https://www.curseforge.com/minecraft/mc-mods/chest-locator
 https://www.curseforge.com/minecraft/mc-mods/classes                            pmmo
+https://www.curseforge.com/minecraft/mc-mods/coffee-plus
+https://www.curseforge.com/minecraft/mc-mods/colwater
 https://www.curseforge.com/minecraft/mc-mods/command-alias-creator
 https://www.curseforge.com/minecraft/mc-mods/cozy-coniferous
+https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-kaimyentity-reborn
 https://www.curseforge.com/minecraft/mc-mods/detailedhp
 https://www.curseforge.com/minecraft/mc-mods/dndmc
 https://www.curseforge.com/minecraft/mc-mods/drill
 https://www.curseforge.com/minecraft/mc-mods/effect-enchantments
+https://www.curseforge.com/minecraft/mc-mods/electrona
+https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities
 https://www.curseforge.com/minecraft/mc-mods/entitled
 https://www.curseforge.com/minecraft/mc-mods/evolved-rpg
 https://www.curseforge.com/minecraft/mc-mods/fakeblocks                         no collision
+https://www.curseforge.com/minecraft/mc-mods/full-turtle-armor
 https://www.curseforge.com/minecraft/mc-mods/grapple-hooks
 https://www.curseforge.com/minecraft/mc-mods/gun-mode-mod
 https://www.curseforge.com/minecraft/mc-mods/hardcore-battle-towers
 https://www.curseforge.com/minecraft/mc-mods/heads-down-display
+https://www.curseforge.com/minecraft/mc-mods/helpful-commands
 https://www.curseforge.com/minecraft/mc-mods/hwylafastfix
+https://www.curseforge.com/minecraft/mc-mods/ibe-editor
+https://www.curseforge.com/minecraft/mc-mods/infinite-anvil
 https://www.curseforge.com/minecraft/mc-mods/instantlava
+https://www.curseforge.com/minecraft/mc-mods/isometric-renders
+https://www.curseforge.com/minecraft/mc-mods/lil-critters
 https://www.curseforge.com/minecraft/mc-mods/lost-trinkets
+https://www.curseforge.com/minecraft/mc-mods/modular-powersuits
 https://www.curseforge.com/minecraft/mc-mods/more-red                           we don't use it
 https://www.curseforge.com/minecraft/mc-mods/more-red-computercraft-integration we don't use more red
 https://www.curseforge.com/minecraft/mc-mods/more-wires
+https://www.curseforge.com/minecraft/mc-mods/old-elysium/screenshots
+https://www.curseforge.com/minecraft/mc-mods/once-upon-a-stroll
+https://www.curseforge.com/minecraft/mc-mods/painting-cycle
+https://www.curseforge.com/minecraft/mc-mods/parkour-recorder                   does it work on a server?
+https://www.curseforge.com/minecraft/mc-mods/particlegenerator
 https://www.curseforge.com/minecraft/mc-mods/path-under-gates
 https://www.curseforge.com/minecraft/mc-mods/pew-pew-towers-forge-edition
 https://www.curseforge.com/minecraft/mc-mods/platos-transporters
+https://www.curseforge.com/minecraft/mc-mods/prp
+https://www.curseforge.com/minecraft/mc-mods/raidmeter
 https://www.curseforge.com/minecraft/mc-mods/rats
+https://www.curseforge.com/minecraft/mc-mods/redstone-bits
+https://www.curseforge.com/minecraft/mc-mods/refined-pipes
 https://www.curseforge.com/minecraft/mc-mods/rope-bridge
+https://www.curseforge.com/minecraft/mc-mods/scuffys-pvz-mod
+https://www.curseforge.com/minecraft/mc-mods/shatter
 https://www.curseforge.com/minecraft/mc-mods/shelf
+https://www.curseforge.com/minecraft/mc-mods/shfa-same-hitboxes-for-all
 https://www.curseforge.com/minecraft/mc-mods/silent-gear
 https://www.curseforge.com/minecraft/mc-mods/silents-mechanisms
 https://www.curseforge.com/minecraft/mc-mods/simply-improved-terrain
+https://www.curseforge.com/minecraft/mc-mods/simply-tea
 https://www.curseforge.com/minecraft/mc-mods/slapmap
+https://www.curseforge.com/minecraft/mc-mods/splatcraft
+https://www.curseforge.com/minecraft/mc-mods/sticks-debugged
 https://www.curseforge.com/minecraft/mc-mods/stumble-upon-campsites
 https://www.curseforge.com/minecraft/mc-mods/stupendous-travels                 happy trails
 https://www.curseforge.com/minecraft/mc-mods/superslegend
+https://www.curseforge.com/minecraft/mc-mods/taterzens-forge
 https://www.curseforge.com/minecraft/mc-mods/tbplugin
 https://www.curseforge.com/minecraft/mc-mods/theatrical
+https://www.curseforge.com/minecraft/mc-mods/time-to-live
 https://www.curseforge.com/minecraft/mc-mods/total-darkness
+https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild
+https://www.curseforge.com/minecraft/mc-mods/travelers-titles
 https://www.curseforge.com/minecraft/mc-mods/traversal
 https://www.curseforge.com/minecraft/mc-mods/trevor-creatures-reborn
 https://www.curseforge.com/minecraft/mc-mods/two-players-one-horse
+https://www.curseforge.com/minecraft/mc-mods/useful-axolotl
+https://www.curseforge.com/minecraft/mc-mods/useful-bat
+https://www.curseforge.com/minecraft/mc-mods/useful-polar-bears
 https://www.curseforge.com/minecraft/mc-mods/variant16x-biomesyougo
 https://www.curseforge.com/minecraft/mc-mods/waila-harvestability
+https://www.curseforge.com/minecraft/mc-mods/walking-canes
+https://www.curseforge.com/minecraft/mc-mods/water-erosion
+https://www.curseforge.com/minecraft/mc-mods/wiki-zoomer
 https://www.curseforge.com/minecraft/mc-mods/witherutils-actor
 https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves
-https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-kaimyentity-reborn
+https://www.curseforge.com/minecraft/mc-mods/zawa-evolved
 '''
-
-# pg 626
