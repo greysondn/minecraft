@@ -129,14 +129,14 @@ mods:ModCollection = ModCollection()
 # ------------------------------------------------------------------------------
 _mlist = [
     ("Afk Manager", "406231", "AFK Notification - this is a good"),
+    ("Anger Management", "305211", ""),
+    ("Anvil Data", "377327")
 ]
 
 for _m in _mlist:
     _mod = Mod(_m[0], _m[1])
     _mod.addComment("greysondn", _m[2])
 
-mods.add(Mod("Anger Management", "305211"))
-mods.add(Mod("Anvil Data", "377327"))
 mods.add(Mod("Anvil Recipes", "396185"))
 mods.add(Mod("Anvil Tweaks", "331921"))
 mods.add(Mod("Auto Attack", "358906"))                                          # omniswing
