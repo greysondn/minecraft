@@ -325,9 +325,9 @@ _mdeps = [
 for _dep in _mdeps:
     cast(Mod, mods.get(_dep[0])).addDependency(mods, _dep[1])
 
-# comments
+# conflicts
 # ------------------------------------------------------------------------------
-
+# magnesium and Project Red Integration - maybe CB multipart?
 
 # etc
 # ------------------------------------------------------------------------------
@@ -349,7 +349,9 @@ simple hud utilities
 slippery walls
 smooth coasters
 color me outlines
-
+https://www.curseforge.com/minecraft/mc-mods/arrows-info
+https://www.curseforge.com/minecraft/mc-mods/firework-rocket-duration
+https://www.curseforge.com/minecraft/mc-mods/towelette                          universalize waterlogging
 
 absolutely
 ----------
@@ -357,7 +359,6 @@ https://www.curseforge.com/minecraft/mc-mods/advanced-chimneys
 https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
 https://www.curseforge.com/minecraft/mc-mods/ageing-spawners
 https://www.curseforge.com/minecraft/mc-mods/aquaculture
-https://www.curseforge.com/minecraft/mc-mods/arrows-info
 https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded
 https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters
 https://www.curseforge.com/minecraft/mc-mods/better-muffling
@@ -375,7 +376,6 @@ https://www.curseforge.com/minecraft/mc-mods/dynamictrees
 https://www.curseforge.com/minecraft/mc-mods/elemental-combat
 https://www.curseforge.com/minecraft/mc-mods/elenai-dodge-2
 https://www.curseforge.com/minecraft/mc-mods/everyday-commands
-https://www.curseforge.com/minecraft/mc-mods/firework-rocket-duration
 https://www.curseforge.com/minecraft/mc-mods/flux-networks
 https://www.curseforge.com/minecraft/mc-mods/hardcore-torches-forge
 https://www.curseforge.com/minecraft/mc-mods/in-control
@@ -437,7 +437,6 @@ https://www.curseforge.com/minecraft/mc-mods/jukefix                            
 https://www.curseforge.com/minecraft/mc-mods/real-sleep                         ticks process when you sleep
 https://www.curseforge.com/minecraft/mc-mods/slipperywalls                      Spiders can't climb ice
 https://www.curseforge.com/minecraft/mc-mods/splash-water                       bottled Water extinguishes fire
-https://www.curseforge.com/minecraft/mc-mods/towelette                          universalize waterlogging
 https://www.curseforge.com/minecraft/mc-mods/more-sound-config                  switch sound device at runtime
 https://www.curseforge.com/minecraft/mc-mods/villagerfollow                     villagers follow you if you have an emerald in your hand
 
@@ -780,7 +779,6 @@ https://www.curseforge.com/minecraft/mc-mods/simple-chimney                     
 
 qol
 ---
-https://www.curseforge.com/minecraft/mc-mods/abacus
 https://www.curseforge.com/minecraft/mc-mods/cauldron-riptide
 https://www.curseforge.com/minecraft/mc-mods/silencer
 https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge
@@ -800,6 +798,10 @@ https://www.curseforge.com/minecraft/mc-mods/nbt-advanced-tooltips
 https://www.curseforge.com/minecraft/mc-mods/startup-qol
 https://www.curseforge.com/minecraft/mc-mods/torch-optimizer                    light levels
 
+qol - fabric
+------------
+https://www.curseforge.com/minecraft/mc-mods/abacus
+
 qol - loot
 ----------
 https://www.curseforge.com/minecraft/mc-mods/pillagers                          you get villager loot by murdering pillagers
@@ -815,6 +817,7 @@ qol - worldgen
 https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold
 https://www.curseforge.com/minecraft/mc-mods/no-bedrock                         destroys bedrock layer entirely
 https://www.curseforge.com/minecraft/mc-mods/ore-recursion-forge                (vanilla) ore can also gen inside sand, gravel, dirt
+
 qol - worldedit
 ---------------
 https://www.curseforge.com/minecraft/mc-mods/world-edit-axe-recipe              worldedit wand
