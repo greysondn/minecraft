@@ -95,6 +95,16 @@ class Mod(SomeCollectible):
     def __init__(self, name:str, curseId:str):
         super().__init__(name, set())
         self.curseId:str = curseId
+        self.dependencies:set[Mod] = set()
+        self.loader:str = ""
+        self.comment:dict[str, str] = {}
+        
+    def addDependency(self, col:"ModCollection", dep:str):
+        if dep in col:
+            self.dependencies.add(cast(Mod, col.get(dep)))
+            
+    def addComment(self, user:str, comment:str):
+        self.comment[user] = comment
 
 class ModCollection(SomeCollection):
     pass
@@ -117,9 +127,14 @@ mods:ModCollection = ModCollection()
 
 # mods
 # ------------------------------------------------------------------------------
+_mlist = [
+    ("Afk Manager", "406231", "AFK Notification - this is a good"),
+]
 
-mods.add(Mod("", ""))
-mods.add(Mod("AFK Manager", "406231"))                                          # AFK Notification - this is a good
+for _m in _mlist:
+    _mod = Mod(_m[0], _m[1])
+    _mod.addComment("greysondn", _m[2])
+
 mods.add(Mod("Anger Management", "305211"))
 mods.add(Mod("Anvil Data", "377327"))
 mods.add(Mod("Anvil Recipes", "396185"))
@@ -151,6 +166,7 @@ mods.add(Mod("Colorful Campfire", "403083"))                                    
 mods.add(Mod("Cotton Resources", "321104"))                                     # modpack tools
 mods.add(Mod("Crazy Generators", "409861"))                                     # alternative FE generation
 mods.add(Mod("CreeperFix", "341131"))                                           # antigrief
+mods.add(Mod("CraftDumper", "354281"))                                          # Debug - it's kind of like tellme, just not the same.
 mods.add(Mod("Cr³stal", "393992"))                                              # April fool's! ... resource packs?
 mods.add(Mod("Custom Selection Box", "308792"))                                 # fabric? Sad eye candy noises
 mods.add(Mod("Dark Tribute", "360591"))
@@ -194,6 +210,7 @@ mods.add(Mod("JsonifyCraft", "349863"))                                         
 mods.add(Mod("Just Enough Beacons", "352622"))                                  # JEI ... rewrite into patchouli?
 mods.add(Mod("Just Sword Blocking", "406495"))
 mods.add(Mod("Komodo Dragon Mod", "409076"))
+mods.add(Mod("Kotlin for Forge", "351264"))                                     # language provider: Kotlin
 mods.add(Mod("Last Stand", "409803"))                                           # and PMMO?
 mods.add(Mod("Lava Smelting", "371543"))
 mods.add(Mod("Lil' Beaver", "417492"))
@@ -298,6 +315,22 @@ mods.add(Mod("narrator off", "412000"))                                         
 mods.add(Mod("prone", "392471"))
 mods.add(Mod("superbackpacks", "395965"))                                       # no, there are better ones
 mods.add(Mod("varied mob textures", "399578"))                                  # Mob eye candy
+
+# dependencies
+# ------------------------------------------------------------------------------
+_mdeps = [
+    ("CraftDumper", "Kotlin for Forge"),
+]
+
+for _dep in _mdeps:
+    cast(Mod, mods.get(_dep[0])).addDependency(mods, _dep[1])
+
+# comments
+# ------------------------------------------------------------------------------
+
+
+# etc
+# ------------------------------------------------------------------------------
 
 # Armor Toughness Bar - ui goodness
 # Images - from the web!
@@ -477,7 +510,6 @@ https://www.curseforge.com/minecraft/mc-mods/feudal-weaponry-forge
 debug
 -----
 https://www.curseforge.com/minecraft/mc-mods/chunk-profiler
-https://www.curseforge.com/minecraft/mc-mods/craftdumper                        it's kind of like tellme, just not the same.
 https://www.curseforge.com/minecraft/mc-mods/packet-logger
 https://www.curseforge.com/minecraft/mc-mods/worldgeneration-profiler
 https://www.curseforge.com/minecraft/mc-mods/blame
