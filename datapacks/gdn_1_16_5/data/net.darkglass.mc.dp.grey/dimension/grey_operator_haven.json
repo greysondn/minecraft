@@ -1,0 +1,13 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [],
+      "biome": "net.darkglass.mc.dp.grey:safetwilight"
+    }
+  },
+  "type": "minecraft:overworld"
+}

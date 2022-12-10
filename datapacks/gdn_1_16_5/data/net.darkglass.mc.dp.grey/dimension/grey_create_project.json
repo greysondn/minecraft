@@ -1,0 +1,22 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:sandstone",
+          "height": 70
+        }
+      ],
+      "biome": "net.darkglass.mc.dp.grey:safespace"
+    }
+  },
+  "type": "net.darkglass.mc.dp.grey:safedim"
+}

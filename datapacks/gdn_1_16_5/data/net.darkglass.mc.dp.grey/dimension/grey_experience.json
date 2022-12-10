@@ -1,0 +1,18 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+             "block": "minecraft:air",
+             "height": 256
+	}
+      ],
+      "biome": "net.darkglass.mc.dp.grey:safespace"
+    }
+  },
+  "type": "net.darkglass.mc.dp.grey:safedim"
+}

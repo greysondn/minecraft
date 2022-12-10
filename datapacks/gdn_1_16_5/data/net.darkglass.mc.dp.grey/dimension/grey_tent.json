@@ -1,0 +1,26 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:coarse_dirt",
+          "height": 69
+        },
+        {
+          "block": "minecraft:grass_block",
+          "height": 1
+        }
+      ],
+      "biome": "net.darkglass.mc.dp.grey:safespace"
+    }
+  },
+  "type": "net.darkglass.mc.dp.grey:safedim"
+}
