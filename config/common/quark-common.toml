@@ -41,7 +41,7 @@
 	"Iron Rod" = true
 	"Weather Sensor" = true
 	"Ender Watcher" = false
-	"Endermites Form Shulkers" = true
+	"Endermites Form Shulkers" = false
 	"Jukebox Automation" = true
 	"Chains Connect Blocks" = false
 	"Color Slime" = true
