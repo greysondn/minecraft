@@ -261,7 +261,7 @@
 	"Slime In A Bucket" = false
 	Camera = true
 	Abacus = false
-	Trowel = true
+	Trowel = false
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
