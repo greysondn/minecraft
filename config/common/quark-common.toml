@@ -260,7 +260,7 @@
 	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
-	Abacus = true
+	Abacus = false
 	Trowel = true
 
 	[tools.ambient_discs]
