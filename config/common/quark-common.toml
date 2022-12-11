@@ -384,7 +384,7 @@
 	"Glass Shard" = true
 	"Campfires Boost Elytra" = true
 	"More Banner Layers" = true
-	"Better Elytra Rocket" = true
+	"Better Elytra Rocket" = false
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
