@@ -52,7 +52,7 @@
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = false
-	"Feeding Trough" = true
+	"Feeding Trough" = false
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
