@@ -6,7 +6,7 @@
 	[settings.potionEffectsBlacklist]
 		#A list of effects to blacklist from stacking.
 		#Format: modid:potion_effect_name, Example: ["minecraft:slowness", "minecraft:mining_fatigue", "minecraft:nausea"]
-		potionEffectsBlacklist = ["minecraft:slowness", "minecraft:nausea", "minecraft:mining_fatigue"]
+		potionEffectsBlacklist = ["minecraft:slowness", "minecraft:nausea", "minecraft:hunger", "minecraft:mining_fatigue"]
 
 	#Notes:
 	[settings.notes]
