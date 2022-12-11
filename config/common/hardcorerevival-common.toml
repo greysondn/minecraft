@@ -6,7 +6,7 @@
 	glowOnKnockout = true
 	#The time in ticks in which a player can still be rescued from death. Set to 0 to disable the timer.
 	#Range: > 0
-	ticksUntilDeath = 2400
+	ticksUntilDeath = 1200
 
 [rescue]
 	#The time in ticks it takes to rescue a player.
