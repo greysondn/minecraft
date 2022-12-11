@@ -374,7 +374,7 @@
 	"Poison Potato Usage" = true
 	"Lava Bucket As Trash" = true
 	"Improved Sleeping" = true
-	"Infinity Bucket" = true
+	"Infinity Bucket" = false
 	"Springy Slime" = true
 	Emotes = true
 	"Utility Recipes" = true
