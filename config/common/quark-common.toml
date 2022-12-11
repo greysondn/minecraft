@@ -37,7 +37,7 @@
 	Client = true
 
 [automation]
-	Chute = true
+	Chute = false
 	"Iron Rod" = true
 	"Weather Sensor" = true
 	"Ender Watcher" = true
