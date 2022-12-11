@@ -1884,7 +1884,7 @@
 [client]
 	"Greener Grass" = false
 	"Variant Animal Textures" = false
-	"Back Button Keybind" = true
+	"Back Button Keybind" = false
 	"Improved Tooltips" = false
 	"Improved Mount Hud" = true
 	"Usage Ticker" = false
