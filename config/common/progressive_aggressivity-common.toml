@@ -1,0 +1,17 @@
+
+[general]
+	#When the player kills a mob, increases the aggressivity by this amount multiplied by the mob's maximum health (if current aggressivity x 1.2 is lower).
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"increase amount" = 0.2
+	#Mobs alert others when they are hurted.
+	alert = true
+	#Starting level of aggressivity.
+	#Range: > 0
+	"starting aggressivity" = 10
+	#Time elapsed in ticks before increasing the aggressivity by 1. (20 ticks per second)
+	#Range: > 1
+	time = 4800
+	#Decreases the aggressivity by this amount when the player dies.
+	#Range: > 0
+	"decrease amount" = 2
+
