@@ -1883,7 +1883,7 @@
 
 [client]
 	"Greener Grass" = false
-	"Variant Animal Textures" = true
+	"Variant Animal Textures" = false
 	"Back Button Keybind" = true
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
