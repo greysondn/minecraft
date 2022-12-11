@@ -524,7 +524,7 @@
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
 	Deepslate = true
-	"Monster Box" = true
+	"Monster Box" = false
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
