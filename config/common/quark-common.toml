@@ -377,7 +377,7 @@
 	"Infinity Bucket" = false
 	"Springy Slime" = true
 	Emotes = true
-	"Utility Recipes" = true
+	"Utility Recipes" = false
 	"Pat The Dogs" = true
 	"Enhanced Ladders" = true
 	"Snow Golem Player Heads" = true
