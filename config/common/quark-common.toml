@@ -228,7 +228,7 @@
 		"Change Names" = true
 
 [management]
-	"Chests In Boats" = true
+	"Chests In Boats" = false
 	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
 	"Hotbar Changer" = true
