@@ -14,7 +14,7 @@
 	rescueActionTicks = 40
 	#The distance at which a player can rescue another.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	rescueDistance = 5.0
+	rescueDistance = 10.0
 	#The food level to respawn with when a player was rescued, out of 20.
 	#Range: > 0
 	rescueRespawnFoodLevel = 5
