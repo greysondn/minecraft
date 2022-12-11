@@ -26,7 +26,7 @@
 
 [restrictions]
 	#If true, knocked out players are still able to punch nearby enemies.
-	allowUnarmedMelee = false
+	allowUnarmedMelee = true
 	#If true, knocked out players are still able to fire bows.
 	allowBows = false
 	#If true, knocked out players are still able to fire pistols from Mr Crayfish's Gun Mod.
