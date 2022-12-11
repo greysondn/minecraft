@@ -509,7 +509,7 @@
 	"Permafrost Underground Biome" = true
 	"Underground Clay" = true
 	"Slime Underground Biome" = true
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	"Chorus Vegetation" = true
 	Crevices = true
 	"Nether Obsidian Spikes" = true
