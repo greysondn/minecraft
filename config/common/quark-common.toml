@@ -234,7 +234,7 @@
 	"Hotbar Changer" = true
 	"Item Sharing" = true
 	"Right Click Armor" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 
 	[management.inventory_sorting]
 		#Play a click when sorting inventories using keybindings
