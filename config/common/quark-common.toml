@@ -1887,7 +1887,7 @@
 	"Back Button Keybind" = true
 	"Improved Tooltips" = false
 	"Improved Mount Hud" = true
-	"Usage Ticker" = true
+	"Usage Ticker" = false
 	"Auto Walk Keybind" = true
 	"Chest Searching" = true
 
