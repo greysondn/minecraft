@@ -1885,7 +1885,7 @@
 	"Greener Grass" = false
 	"Variant Animal Textures" = false
 	"Back Button Keybind" = true
-	"Improved Tooltips" = true
+	"Improved Tooltips" = false
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
 	"Auto Walk Keybind" = true
