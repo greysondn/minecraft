@@ -258,7 +258,7 @@
 	"Color Runes" = true
 	"Endermosh Music Disc" = true
 	"Ancient Tomes" = false
-	"Slime In A Bucket" = true
+	"Slime In A Bucket" = false
 	Camera = true
 	Abacus = false
 	Trowel = true
