@@ -112,7 +112,7 @@
 	"Iron Plates" = true
 	"Sturdy Stone" = true
 	"More Potted Plants" = true
-	Grate = true
+	Grate = false
 	"Variant Bookshelves" = true
 	"Duskbound Blocks" = true
 	"Bamboo Mat" = true
