@@ -250,7 +250,7 @@
 		"Render Items In Chat" = true
 
 [tools]
-	Pickarang = true
+	Pickarang = false
 	"Ambient Discs" = true
 	"Seed Pouch" = true
 	"Pathfinder Maps" = true
