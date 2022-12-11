@@ -382,7 +382,7 @@
 	"Enhanced Ladders" = true
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
-	"Campfires Boost Elytra" = true
+	"Campfires Boost Elytra" = false
 	"More Banner Layers" = true
 	"Better Elytra Rocket" = false
 
