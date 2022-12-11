@@ -367,7 +367,7 @@
 	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
-	"Skull Pikes" = true
+	"Skull Pikes" = false
 	"Note Block Mob Sounds" = true
 	"Double Door Opening" = true
 	"Automatic Recipe Unlock" = true
