@@ -99,7 +99,7 @@
 	"Celebratory Lamps" = true
 	"Variant Chests" = true
 	Hedges = true
-	"Vertical Slabs" = true
+	"Vertical Slabs" = false
 	"Nether Brick Fence Gate" = true
 	"Lit Lamp" = true
 	"Vertical Planks" = true
