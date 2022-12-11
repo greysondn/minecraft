@@ -368,7 +368,7 @@
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = false
 	"Skull Pikes" = false
-	"Note Block Mob Sounds" = true
+	"Note Block Mob Sounds" = false
 	"Double Door Opening" = true
 	"Automatic Recipe Unlock" = true
 	"Poison Potato Usage" = true
