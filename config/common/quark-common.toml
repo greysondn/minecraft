@@ -254,7 +254,7 @@
 	"Ambient Discs" = true
 	"Seed Pouch" = true
 	"Pathfinder Maps" = true
-	"Bottled Cloud" = true
+	"Bottled Cloud" = false
 	"Color Runes" = true
 	"Endermosh Music Disc" = true
 	"Ancient Tomes" = false
