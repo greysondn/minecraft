@@ -1,0 +1,13 @@
+
+[display-options]
+	#Whether or not to display absorption hearts
+	"Show Absorption" = true
+	#Whether or not to display armor
+	"Show Armor" = true
+	#Whether or not to display hunger
+	"Show Hunger" = true
+	#The vertical offset at which to display the party list at.
+	"Y Offset" = 2
+	#Whether or not to use the simple UI
+	"Use Simple UI" = false
+
