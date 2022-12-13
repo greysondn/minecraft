@@ -1,0 +1,85 @@
+
+#The basic configuration for how the darkness should behave
+[darkness]
+	#
+	#The light level threshold (inclusive), at and below which the darkness will start consuming a player over time
+	#Range: -65536 ~ 65536
+	light_level_threshold = 4
+	#
+	#The time (in seconds) a player has to spend in the darkness before it starts accumulating
+	#The timer gets reset once the player is in a lit enough area, and starts ticking again once in the darkness and the player's darkness level is at 0
+	#Range: 0.0 ~ 65536.0
+	delay = 4.0
+	#
+	#The time (in seconds) it takes for the darkness to fully consume a player
+	#In this context, 0 would mean that the darkness should consume the player instantly, once in an unlit area
+	#Range: 0.0 ~ 65536.0
+	growth_time = 10.0
+	#
+	#The time (in seconds) it takes for the darkness to fall off
+	#In this context, 0 would mean that the darkness should fall off instantly, once in a lit enough area
+	#Range: 0.0 ~ 65536.0
+	falloff_time = 2.0
+	#
+	#Whether the darkness should kill a player upon fully consuming them
+	darkness_kills = true
+
+	#Any dimension-related configuration
+	[darkness.dimension]
+		#
+		#The list of dimension registry names where the effects of the darkness should be disabled
+		#e.g., "minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"
+		dim_blacklist = []
+		#
+		#Whether to use dimension blacklist as whitelist instead
+		dim_blacklist_as_whitelist = false
+
+	#Any damage-over-time-related configuration
+	[darkness.damage]
+		#
+		#The amount of damage (in half-hearts) the darkness deals at customizable [damage_interval] intervals
+		#Range: 0.0 ~ 65536.0
+		damage = 0.0
+		#
+		#The interval (in seconds) at which the darkness damages a player
+		#For example, 3 would mean that the darkness will hit the player every 3 seconds
+		#Range: 0.0 ~ 65536.0
+		damage_interval = 3.0
+		#
+		#The delay (in seconds) after which a player will start taking damage
+		#This timer starts ticking once the darkness begins consuming the player
+		#Range: 0.0 ~ 65536.0
+		damage_delay = 0.0
+
+	#Miscellaneous configuration
+	[darkness.misc]
+		#
+		#Whether to show the darkness overlay
+		show_overlay = true
+		#
+		#Whether to play the darkness sound effect
+		play_sound_effect = true
+		#
+		#The darkness sound effect's volume
+		#Range: 0.0 ~ 1.0
+		sound_effect_volume = 0.800000011920929
+		#
+		#Items that should add to the total light value when a player is holding them in either hand
+		#An item should be included as follows: "item_registry_name$N", where N is an additive light value
+		#$N can be omitted, in this case it is implied that the item has the light value of 15
+		#If the player is holding two items specified in this list (one in each hand), their light values are summed
+		#Stack size does not participate in calculations
+		shiny_items = ["minecraft:beacon$8", "minecraft:conduit$8", "minecraft:glowstone$8", "minecraft:jack_o_lantern$8", "minecraft:lantern$8", "minecraft:soul_lantern$5", "minecraft:sea_lantern$8", "minecraft:shroomlight$8", "minecraft:glow_berries$3", "minecraft:end_rod$7", "minecraft:torch$7", "minecraft:crying_obsidian$5", "minecraft:enchanting_table$4", "minecraft:ender_chest$4", "minecraft:glow_lichen$4", "minecraft:redstone_torch$2", "minecraft:small_amethyst_bud$1", "minecraft:medium_amethyst_bud$1", "minecraft:large_amethyst_bud$2", "minecraft:amethyst_cluster$3", "minecraft:magma_block$2", "minecraft:brewing_stand$1", "minecraft:brown_mushroom$1", "minecraft:dragon_egg$1", "minecraft:end_portal_frame$1", "minecraft:light$8", "minecraft:ender_pearl$1", "minecraft:ender_eye$1", "minecraft:experience_bottle$1", "minecraft:redstone$1", "minecraft:lava_bucket$8", "minecraft:spectral_arrow$3", "minecraft:enchanted_golden_apple$3", "minecraft:glow_ink_sac$2", "minecraft:amethyst_shard$1", "minecraft:nether_star$8", "minecraft:glistering_melon_slice$2", "minecraft:glowstone_dust$4", "minecraft:blaze_powder$1", "minecraft:blaze_rod$1", "minecraft:magma_cream$1"]
+		#
+		#Any additional effects to apply to a player
+		#An effect should be included as follows: "effect_registry_name[duration=A][level=B][timing=C]"
+		#Duration is a number and determines the duration of the effect in seconds, defaults to infinite (for as long as the darkness level persists)
+		#Level is a number and determines the power of the effect, defaults to 1
+		#Timing is a number followed by either '%' or 's' (for percentage or seconds respectively) and determines the timestamp at which the effect occurs, defaults to 0s
+		#Any parameters can be omitted, in this case they are set to their default values
+		#Examples:
+		#"minecraft:hunger[duration=2][timing=50%]" would apply Hunger I to a player for 2 seconds roughly halfway through (that is, if growth_time is set to 20, the effect would be applied at 10 seconds)
+		#"minecraft:slowness[timing=2.8s][level=2]" would apply Slowness II to a player for as long as they are being consumed by the darkness, starting at 2.8 seconds
+		#"minecraft:strength" would apply Strength I to a player right after they start gaining the darkness level, with the effect persisting for as long as their darkness level is higher than 0
+		effects = []
+
