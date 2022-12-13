@@ -1,5 +1,8 @@
 
 ["Client Only Settings"]
+	#The list of slabs (or tags) which should not use the double variant model when two of the same slab are combined together
+	#Use the wildcard value * to disable this feature for all slabs
+	useDoubleSlabModelBlacklist = []
 	#The list of slabs (or tags) which should NOT have uvlock enabled when creating a vertical slab model.
 	#This often yields better looking results with wooden planks and does not necessarily improve the look of all vertical slabs
 	#Use the wildcard value * to enable this feature for all slabs
@@ -7,9 +10,6 @@
 	#The list of slabs (or tags) which should not be culled when combined
 	#Use the wildcard value * to disable this feature for all slabs
 	slabCullBlacklist = ["#minecraft:campfires"]
-	#The list of slabs (or tags) which should not use the double variant model when two of the same slab are combined together
-	#Use the wildcard value * to disable this feature for all slabs
-	useDoubleSlabModelBlacklist = []
 
 ["Player Settings (synced with servers)"]
 	#Which placement method to use to place vertical slabs
