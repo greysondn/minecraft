@@ -26,7 +26,7 @@ detectAmbiguousY:true
 showDisabledWaypoints:false
 closeWaypointsWhenHopping:true
 adjustHeightForCarpetLikeBlocks:true
-onlyCurrentMapWaypoints:false
+onlyCurrentMapWaypoints:true
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
 globalVersion:1
