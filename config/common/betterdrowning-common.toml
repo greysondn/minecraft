@@ -13,7 +13,7 @@
 	#Settings for the air refill feature.
 	[general.air-refill]
 		#Should air be instantly refilled when out of water like in 1.13 and below?
-		enabled = false
+		enabled = true
 
 	#Settings for the stronger drowning feature.
 	[general.stronger-drowning]
