@@ -4,7 +4,7 @@
 	#
 	#The light level threshold (inclusive), at and below which the darkness will start consuming a player over time
 	#Range: -65536 ~ 65536
-	light_level_threshold = 1
+	light_level_threshold = 4
 	#
 	#The time (in seconds) a player has to spend in the darkness before it starts accumulating
 	#The timer gets reset once the player is in a lit enough area, and starts ticking again once in the darkness and the player's darkness level is at 0
