@@ -1,0 +1,41 @@
+
+["Action Permissions"]
+	allowCatLeap = true
+	allowCrawl = true
+	allowDodge = true
+	allowFastRunning = true
+	allowClingToCliff = true
+	allowRoll = true
+	allowVault = true
+	allowWallJump = true
+	allowBreakfall = true
+	allowFlipping = true
+	allowWallSlide = true
+	allowHorizontalWallRun = true
+
+[Stamina]
+	#Range: 300 ~ 10000
+	"Max Value of Stamina" = 2000
+	#allow Infinite Stamina
+	infiniteStamina = true
+
+	[Stamina.Consumption]
+		#Range: 0 ~ 10000
+		Breakfall = 100
+		#Range: 0 ~ 10000
+		CatLeap = 150
+		#Range: 0 ~ 10000
+		ClingToCliff = 2
+		#Range: 0 ~ 10000
+		ClimbUp = 150
+		#Range: 0 ~ 10000
+		Dodge = 80
+		#Range: 0 ~ 10000
+		FastRunning = 2
+		#Range: 0 ~ 10000
+		Flipping = 80
+		#Range: 0 ~ 10000
+		Vault = 50
+		#Range: 0 ~ 10000
+		WallJump = 120
+

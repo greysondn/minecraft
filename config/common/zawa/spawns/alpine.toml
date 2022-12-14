@@ -1,0 +1,57 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[temperate_alpine]
+	biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains"]
+
+	[temperate_alpine.giant_panda]
+		enabled = true
+		chance = 5
+		min = 1
+		max = 1
+
+	[temperate_alpine.butterfly]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+[dry_alpine]
+	biomes = ["minecraft:savanna_plateau", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "minecraft:shattered_savanna_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:modified_badlands_plateau"]
+
+[tropical_alpine]
+	biomes = ["minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills"]
+
+	[tropical_alpine.great_indian_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[tropical_alpine.mandrill]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 4
+
+	[tropical_alpine.white_bellied_spider_monkey]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 3
+
+[tundra_alpine]
+	biomes = ["minecraft:mountains", "minecraft:snowy_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains"]
+
+	[tundra_alpine.snow_leopard]
+		enabled = true
+		chance = 5
+		min = 1
+		max = 1
+

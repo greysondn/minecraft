@@ -1,0 +1,63 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[cold_grassland]
+	biomes = ["minecraft:plains", "minecraft:snowy_tundra", "minecraft:sunflower_plains"]
+
+[dry_grassland]
+	biomes = ["minecraft:plains", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:sunflower_plains", "minecraft:badlands", "minecraft:badlands_plateau"]
+
+	[dry_grassland.black_footed_ferret]
+		enabled = true
+		chance = 5
+		min = 1
+		max = 2
+
+	[dry_grassland.giant_anteater]
+		enabled = true
+		chance = 8
+		min = 1
+		max = 1
+
+	[dry_grassland.butterfly]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[dry_grassland.african_praying_mantis]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[dry_grassland.devils_flower_praying_mantis]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[dry_grassland.arizona_bark_scorpion]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[dry_grassland.northern_scorpion]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[dry_grassland.brazilian_black_tarantula]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+

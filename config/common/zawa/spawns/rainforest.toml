@@ -1,0 +1,168 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[dry_rainforest]
+	biomes = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:jungle_edge", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills"]
+
+	[dry_rainforest.hyacinth_macaw]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[dry_rainforest.red_shouldered_macaw]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[dry_rainforest.ghost_praying_mantis]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[dry_rainforest.mexican_red_knee_tarantula]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[dry_rainforest.antilles_pinktoe_tarantula]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+[wet_rainforest]
+	biomes = ["minecraft:jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:swamp", "minecraft:swamp_hills"]
+
+	[wet_rainforest.wreathed_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[wet_rainforest.wrinkled_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[wet_rainforest.scarlet_macaw]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[wet_rainforest.green_winged_macaw]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[wet_rainforest.blue_and_gold_macaw]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[wet_rainforest.chestnut_fronted_macaw]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[wet_rainforest.brown_spider_monkey]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 3
+
+	[wet_rainforest.corydoras]
+		enabled = true
+		chance = 10
+		min = 4
+		max = 5
+
+	[wet_rainforest.cobalt_blue_tarantula]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[wet_rainforest.goliath_birdeater_tarantula]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+[deep_rainforest]
+	biomes = ["minecraft:jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills"]
+
+	[deep_rainforest.rhinoceros_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[deep_rainforest.palawan_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[deep_rainforest.black_headed_spider_monkey]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 3
+
+	[deep_rainforest.red_faced_spider_monkey]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 3
+
+	[deep_rainforest.sumatran_orangutan]
+		enabled = true
+		chance = 8
+		min = 1
+		max = 1
+
+	[deep_rainforest.butterfly]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+	[deep_rainforest.orchid_praying_mantis]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[deep_rainforest.emperor_scorpion]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[deep_rainforest.red_claw_scorpion]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
+	[deep_rainforest.asian_forest_scorpion]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+

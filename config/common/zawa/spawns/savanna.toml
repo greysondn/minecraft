@@ -1,0 +1,99 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[dry_savanna]
+	biomes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes"]
+
+	[dry_savanna.african_lion]
+		enabled = true
+		chance = 8
+		min = 3
+		max = 6
+
+	[dry_savanna.northern_giraffe]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 5
+
+	[dry_savanna.grevys_zebra]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 6
+
+	[dry_savanna.yellow_billed_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[dry_savanna.butterfly]
+		enabled = true
+		chance = 10
+		min = 1
+		max = 4
+
+[wet_savanna]
+	biomes = ["minecraft:savanna", "minecraft:savanna_plateau"]
+
+	[wet_savanna.african_wild_dog]
+		enabled = true
+		chance = 8
+		min = 4
+		max = 6
+
+	[wet_savanna.reticulated_giraffe]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 5
+
+	[wet_savanna.masai_giraffe]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 5
+
+	[wet_savanna.southern_giraffe]
+		enabled = true
+		chance = 10
+		min = 3
+		max = 5
+
+	[wet_savanna.trumpeter_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[wet_savanna.red_billed_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[wet_savanna.jacksons_hornbill]
+		enabled = true
+		chance = 10
+		min = 2
+		max = 3
+
+	[wet_savanna.african_lake_cichlid]
+		enabled = true
+		chance = 10
+		min = 5
+		max = 6
+
+	[wet_savanna.king_baboon_tarantula]
+		enabled = true
+		chance = 4
+		min = 1
+		max = 1
+
