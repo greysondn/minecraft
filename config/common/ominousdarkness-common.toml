@@ -29,7 +29,7 @@
 		#
 		#The list of dimension registry names where the effects of the darkness should be disabled
 		#e.g., "minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"
-		dim_blacklist = ["minecraft:the_nether"]
+		dim_blacklist = ["minecraft:the_nether", "net.darkglass.mc.dp:grey_create_project", "net.darkglass.mc.dp:grey_create_wreck", "net.darkglass.mc.dp:grey_experience", "net.darkglass.mc.dp:grey_operator_haven", "net.darkglass.mc.dp:grey_tent"]
 		#
 		#Whether to use dimension blacklist as whitelist instead
 		dim_blacklist_as_whitelist = false
