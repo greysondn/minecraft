@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "mob": [
+        "doom:cyberdemon2016",
+        "doom:cueball",
+        "doom:gargoyle",
+        "doom:gore_nest",
+        "doom:hellknight2016",
+        "doom:iconofsin",
+        "doom:imp2016",
+        "doom:marauder",
+        "doom:mechazombie",
+        "doom:nightmare_imp",
+        "doom:possessed_scientist",
+        "doom:possessed_soldier",
+        "doom:prowler",
+        "doom:stone_imp",
+        "doom:unwilling"
+    ],
+    "result": "deny"
+  }
+]
