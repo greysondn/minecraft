@@ -1,21 +1,42 @@
 [
   {
     "mob": [
+        "doom:arachnotroneternal",
+        "doom:arch_maykr",
+        "doom:archvileeternal",
+        "doom:armoredbaron",
+        "doom:baron2016",
+        "doom:blood_maykr",
         "doom:cyberdemon2016",
         "doom:cueball",
+        "doom:doom_hunter",
+        "doom:dreadknight",
+        "doom:firebronebaron",
         "doom:gargoyle",
+        "doom:gladiator",
         "doom:gore_nest",
         "doom:hellknight2016",
         "doom:iconofsin",
         "doom:imp2016",
         "doom:marauder",
+        "doom:maykr_drone",
         "doom:mechazombie",
+        "doom:motherdemon",
         "doom:nightmare_imp",
+        "doom:pinky2016",
         "doom:possessed_scientist",
         "doom:possessed_soldier",
+        "doom:possessed_worker",
         "doom:prowler",
+        "doom:revenant2016",
+        "doom:spidermastermind2016",
         "doom:stone_imp",
-        "doom:unwilling"
+        "doom:summoner",
+        "doom:tentacle",
+        "doom:tyrant",
+        "doom:unwilling",
+        "doom:whiplash",
+        "doom:zombieman"
     ],
     "result": "deny"
   }
