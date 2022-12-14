@@ -9,7 +9,7 @@
 	"Use Fast Worldgen" = true
 	"Enable 'q' Button" = true
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
-	"Ignored Screens" = []
+	"Ignored Screens" = ["moze_intel.projecte.gameObjs.gui.GUITransmutation"]
 	"Use Anti Overlap" = true
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
