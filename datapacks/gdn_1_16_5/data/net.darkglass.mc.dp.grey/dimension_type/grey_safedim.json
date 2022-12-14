@@ -8,7 +8,7 @@
   "bed_works": true,
   "respawn_anchor_works": true,
   "ultrawarm": false,
-  "natural": false,
+  "natural": true,
   "coordinate_scale": 1,
   "min_y": 0,
   "height": 256,
