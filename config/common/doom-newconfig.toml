@@ -15,7 +15,7 @@
 	"BFGBall Damage" = 100.5
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Chaingun Damage" = 5.5
-	"Should Rockets/BFG Break Blocks" = false
+	"Should Rockets/BFG Break Blocks" = true
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"BFG AoE Damage" = 10.5
 	#Range: 1.0 ~ 1.7976931348623157E308
