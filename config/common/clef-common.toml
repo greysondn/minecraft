@@ -7,7 +7,7 @@
 	#2 = Only instruments the server has
 	#3 = Any instrument
 	#Range: 0 ~ 3
-	creatableInstruments = 3
+	creatableInstruments = 0
 	#Weight for the spawn chance of instruments in loot chests. Set to 0 to disable.
 	#Range: 0 ~ 20
 	lootSpawnRate = 1
