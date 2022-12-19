@@ -4,12 +4,12 @@
 	#
 	#The light level threshold (inclusive), at and below which the darkness will start consuming a player over time
 	#Range: -65536 ~ 65536
-	light_level_threshold = 4
+	light_level_threshold = 1
 	#
 	#The time (in seconds) a player has to spend in the darkness before it starts accumulating
 	#The timer gets reset once the player is in a lit enough area, and starts ticking again once in the darkness and the player's darkness level is at 0
 	#Range: 0.0 ~ 65536.0
-	delay = 4.0
+	delay = 1.0
 	#
 	#The time (in seconds) it takes for the darkness to fully consume a player
 	#In this context, 0 would mean that the darkness should consume the player instantly, once in an unlit area
@@ -19,17 +19,17 @@
 	#The time (in seconds) it takes for the darkness to fall off
 	#In this context, 0 would mean that the darkness should fall off instantly, once in a lit enough area
 	#Range: 0.0 ~ 65536.0
-	falloff_time = 2.0
+	falloff_time = 10.0
 	#
 	#Whether the darkness should kill a player upon fully consuming them
-	darkness_kills = true
+	darkness_kills = false
 
 	#Any dimension-related configuration
 	[darkness.dimension]
 		#
 		#The list of dimension registry names where the effects of the darkness should be disabled
 		#e.g., "minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"
-		dim_blacklist = ["minecraft:the_nether", "net.darkglass.mc.dp:grey_create_project", "net.darkglass.mc.dp:grey_create_wreck", "net.darkglass.mc.dp:grey_experience", "net.darkglass.mc.dp:grey_operator_haven", "net.darkglass.mc.dp:grey_tent"]
+		dim_blacklist = ["minecraft:the_nether"]
 		#
 		#Whether to use dimension blacklist as whitelist instead
 		dim_blacklist_as_whitelist = false
@@ -39,17 +39,17 @@
 		#
 		#The amount of damage (in half-hearts) the darkness deals at customizable [damage_interval] intervals
 		#Range: 0.0 ~ 65536.0
-		damage = 0.0
+		damage = 1.0
 		#
 		#The interval (in seconds) at which the darkness damages a player
 		#For example, 3 would mean that the darkness will hit the player every 3 seconds
 		#Range: 0.0 ~ 65536.0
-		damage_interval = 3.0
+		damage_interval = 2.0
 		#
 		#The delay (in seconds) after which a player will start taking damage
 		#This timer starts ticking once the darkness begins consuming the player
 		#Range: 0.0 ~ 65536.0
-		damage_delay = 0.0
+		damage_delay = 5.0
 
 	#Miscellaneous configuration
 	[darkness.misc]
