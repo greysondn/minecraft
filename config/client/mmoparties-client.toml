@@ -5,9 +5,9 @@
 	#Whether or not to use the simple UI
 	"Use Simple UI" = false
 	#Whether or not to display armor
-	"Show Armor" = true
+	"Show Armor" = false
 	#The vertical offset at which to display the party list at.
-	"Y Offset" = 128
+	"Y Offset" = 188
 	#Whether or not to display hunger
 	"Show Hunger" = true
 

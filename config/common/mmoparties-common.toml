@@ -7,11 +7,11 @@
 		#Whether or not debug mode is enabled
 		"Enable Debug Mode" = false
 		#Whether or not to allow players to teleport to eachother within a party
-		"Allow teleportation" = true
+		"Allow teleportation" = false
 		#Whether or not to auto-assign all players to a party
-		"Auto-assign Parties" = false
+		"Auto-assign Parties" = true
 		#Whether or not to allow invite all
-		"Allow Invite All" = true
+		"Allow Invite All" = false
 		#The point to anchor the UI to.
 		"UI Anchor" = "top-left"
 
