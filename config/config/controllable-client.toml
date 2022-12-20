@@ -27,7 +27,7 @@
 		rotationSpeed = 25.0
 		#The distance you have to move the thumbstick before it's input is registered. This fixes drifting as some thumbsticks don't center to zero.
 		#Range: 0.0 ~ 1.0
-		deadZone = 0.15
+		deadZone = 0.4
 		#The controller icons to use in game to display actions
 		#Allowed Values: DEFAULT, PLAYSTATION_4, PLAYSTATION_3, XBOX_ONE, XBOX_360, SWITCH_JOYCONS, SWITCH_CONTROLLER, GAMECUBE, STEAM
 		controllerIcons = "DEFAULT"
