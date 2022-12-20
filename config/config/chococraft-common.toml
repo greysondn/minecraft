@@ -18,9 +18,9 @@
 	#Controls Chocobo Pack Size Min [Default: 1]
 	#Range: > 0
 	chocoboPackSizeMin = 1
-    #Controls Chocobo Pack Size Max [Default: 3]
-    #Range: > 0
-    chocoboPackSizeMax = 5
+	#Controls Chocobo Pack Size Max [Default: 3]
+	#Range: > 0
+	chocoboPackSizeMax = 5
 
 #Chocobo configuration
 [Chocobo]
@@ -32,28 +32,28 @@
 [Naming]
 	#If taming a chocobo will provide them with a name (unless already named) [Default: true]
 	nameTamedChocobos = true
-    #The list of male names it can choose from if 'nameTamedChocobos' is enabled
-    maleNames = [
-                    "Big Bird",         # Sesame Street
-                    "Daffy",            # Looney Tunes
-                    "Donald",           # Disney
-                    "Foghorn",          # Looney Tunes
-                    "Iago",             # Aladdin
-                    "Johnathan",        # ... Livingston Seagull
-                    "Jose",             # Unsure, Disney
-                    "Mordecai",         # Regular Show
-                    "Orville",          # Rescuers
-                    "Scrooge",          # Ducktales
-                    "Scuttle",          # The Little Mermaid
-                    "Woody"             # Woodpecker
-                ]
-    #The list of female names it can choose from if 'nameTamedChocobos' is enabled
-    femaleNames   = [
-                        "Camilla",              # Muppets
-                        "Clara",                # Disney
-                        "Daisy",                # Disney
-                        "Flit",                 # Pocohontas
-                        "Goldie",               # Rock-a-Doodle
-                        "Magika De Spell",      # Ducktales
-                        "Shirley"               # Like, Tiny Toon Adventures
-                    ]
+	#The list of male names it can choose from if 'nameTamedChocobos' is enabled
+	maleNames =     [
+						"Big Bird",             # Sesame Street
+						"Daffy",                # Looney Tunes
+						"Donald",               # Disney
+						"Foghorn",              # Looney Tunes
+						"Iago",                 # Aladdin
+						"Johnathan",            # ... Livingston Seagull
+						"Jose",                 # Unsure, Disney
+						"Mordecai",             # Regular Show
+						"Orville",              # Rescuers
+						"Scrooge",              # Ducktales
+						"Scuttle",              # The Little Mermaid
+						"Woody"                 # Woodpecker
+					]
+		#The list of female names it can choose from if 'nameTamedChocobos' is enabled
+	femaleNames   = [
+						"Camilla",              # Muppets
+						"Clara",                # Disney
+						"Daisy",                # Disney
+						"Flit",                 # Pocohontas
+						"Goldie",               # Rock-a-Doodle
+						"Magika De Spell",      # Ducktales
+						"Shirley"               # Like, Tiny Toon Adventures
+					]
