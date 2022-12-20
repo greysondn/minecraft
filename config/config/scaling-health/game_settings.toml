@@ -7,7 +7,7 @@
 
 	[item.enchanted_heart]
 		#Change in difficulty when an enchanted heart is used
-		change = -10.0
+		change = -1.0
 
 	[item.chance_heart]
 		#Change in difficulty when a chance heart is used
@@ -21,7 +21,7 @@
 		#Heart crystals always restore the amount of health they add, this is a bonus
 		healthRestored = 4.0
 		#The number of levels required to use a heart crystal.
-		levelCost = 3
+		levelCost = 10
 		#How much hearts a player will gain using a heart crystal.
 		healthBoost = 1
 
@@ -143,7 +143,7 @@
 		#Starting player health, in half-hearts (20 = 10 hearts)
 		startingHealth = 20
 		#The minimum amount of health a player can have (this can be lower than starting health)
-		minHealth = 2
+		minHealth = 10
 		#The highest max health a player can reach, not considering the vanilla
 		# health cap and modifiers from other sources. 0 means 'unlimited'.
 		maxHealth = 0
@@ -153,7 +153,7 @@
 		#settings for hp scaling by xp level
 		[player.health.xp]
 			#How many levels it takes for an hp increase
-			levelAmount = 3
+			levelAmount = 1000
 			#On hp increase, how much hp is gained
 			hpAmount = 1
 
@@ -173,7 +173,7 @@
 	#minHealth -- Minimum health required for regen to be active
 	#maxHealth -- Maximum health at which regen will be active
 	[player.regen]
-		enabled = true
+		enabled = false
 		initialDelay = 20.0
 		tickDelay = 5.0
 		exhaustion = 0.1
@@ -188,7 +188,7 @@
 	#Delay (in seconds) between regen ticks for pets. Set 0 to disable.
 	regenDelay = 30.0
 	#Define the amount of hp a tamed ped will gain when right clicking with a heart crystal.
-	hpGain = 5.0
+	hpGain = 100.0
 
 #Settings related to difficulty. Difficulty determines various things, such as how much health mobs have.
 [difficulty]
@@ -200,7 +200,7 @@
 	#The minimum difficulty value a player can have. This can be smaller from startingValue.
 	minValue = 0.0
 	#The maximum difficulty value a player can have.
-	maxValue = 250.0
+	maxValue = 1000.0
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
 	changePerSecond = 0.0011575
@@ -223,7 +223,7 @@
 	#Mix of WEIGHTED_AVERAGE and DISTANCE_FROM_SPAWN. Difficulty increases with time but also with distance
 	#SERVER_WIDE:
 	#Difficulty tracked at the server level. Player difficulty is irrelevant.
-	areaMode = "WEIGHTED_AVERAGE"
+	areaMode = "DISTANCE_AND_TIME"
 	#Distance to look for difficulty sources (players) when calculating area difficulty.
 	searchRadius = 256
 	#Ignore the Y-axis in difficulty calculations
@@ -236,7 +236,7 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.5
+		multiplier = 0.0
 		#If true, a comment will appear to notify when you are considered afk
 		message = true
 		#Time in seconds before afk change kicks in
@@ -246,17 +246,17 @@
 	#putting in -difficulty- produces no change, putting 0 will reset difficulty after this action
 	[difficulty.mutators]
 		#EvalEx expression: A blight is killed by a player
-		onBlightKilled = "difficulty"
+		onBlightKilled = "difficulty - 25"
 		#EvalEx expression: A boss is killed by a player
-		onBossKilled = "difficulty"
+		onBossKilled = "difficulty - 50"
 		#EvalEx expression: A normal hostile mob is killed by a player
-		onHostileKilled = "difficulty"
+		onHostileKilled = "difficulty + 1"
 		#EvalEx expression: A peaceful mob is killed by a player
-		onPeacefulKilled = "difficulty"
+		onPeacefulKilled = "difficulty + 10"
 		#EvalEx expression: A player killed another player
 		onPlayerKilled = "difficulty + 1.0"
 		#EvalEx expression: A player dies
-		onPlayerDeath = "difficulty"
+		onPlayerDeath = "difficulty - 10"
 		#EvalEx expression: A player sleeps in a bed
 		onPlayerSleep = "difficulty"
 
