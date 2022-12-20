@@ -31,13 +31,13 @@
 
 		[hearts.health.tanks]
 			#Enable heart tanks, the small icons above your hearts which indicate the number of filled health rows
-			enabled = true
+			enabled = false
 
 		#Settings for the text displayed next to the heart rows
 		[hearts.health.text]
 			#Style of health text
 			#Valid values: DISABLED, ROWS, HEALTH_AND_MAX, HEALTH_ONLY
-			style = "ROWS"
+			style = "DISABLED"
 			#Health text scale, relative to its normal size (which varies by style)
 			scale = 1.0
 			#Fine-tune text position
@@ -61,7 +61,7 @@
 		[hearts.absorption.icons]
 			#Style of absorption icons
 			#Valid values: SHIELD, GOLD_OUTLINE, VANILLA
-			style = "SHIELD"
+			style = "VANILLA"
 			#The color of each row of absorption hearts. If the player has more rows than colors, it starts over from the beginning.
 			colors = ["#BF0000", "#E66000", "#E69900", "#E6D300", "#99E600", "#4CE600", "#00E699", "#00E6E6", "#0099E6", "#0000E6", "#9900E6", "#D580FF", "#8C8C8C", "#E6E6E6"]
 
@@ -85,7 +85,7 @@
 		# SOMETIMES will show the meter for a few seconds every so often.
 		#KEYPRESS will make the meter keybinded
 		#ALWAYS and NEVER should be obvious enough.
-		show = "SOMETIMES"
+		show = "ALWAYS"
 		#Show the difficulty meter for this many seconds (only on SOMETIMES mode)
 		showDuration = 8.0
 
