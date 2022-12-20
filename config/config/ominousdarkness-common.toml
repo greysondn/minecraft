@@ -14,7 +14,7 @@
 	#The time (in seconds) it takes for the darkness to fully consume a player
 	#In this context, 0 would mean that the darkness should consume the player instantly, once in an unlit area
 	#Range: 0.0 ~ 65536.0
-	growth_time = 10.0
+	growth_time = 5.0
 	#
 	#The time (in seconds) it takes for the darkness to fall off
 	#In this context, 0 would mean that the darkness should fall off instantly, once in a lit enough area
@@ -39,7 +39,7 @@
 		#
 		#The amount of damage (in half-hearts) the darkness deals at customizable [damage_interval] intervals
 		#Range: 0.0 ~ 65536.0
-		damage = 1.0
+		damage = 2.0
 		#
 		#The interval (in seconds) at which the darkness damages a player
 		#For example, 3 would mean that the darkness will hit the player every 3 seconds
