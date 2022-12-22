@@ -43,7 +43,7 @@
             "type": "name",
             "name": "Shamiyana Wall (Pattern 02)",
             "model": {
-                "parent": "net.darkglass.mc.rp:models/block/shamiyana_wall_02_pattern"
+                "parent": "net.darkglass.mc.rp:block/shamiyana_wall_02_pattern"
             }
         }
     ]
