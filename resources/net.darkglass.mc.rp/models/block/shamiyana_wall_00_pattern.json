@@ -1,0 +1,8 @@
+{
+    "parent": "gdn_placeholders:custom/dummy",
+    "textures": {
+        "all": "net.darkglass.mc.rp:blocks/nomadictents/shamiyana_wall_player_00_pattern",
+        "particle": "net.darkglass.mc.rp:blocks/nomadictents/shamiyana_wall_player_00_pattern",
+        "0": "net.darkglass.mc.rp:blocks/nomadictents/shamiyana_wall_player_00_pattern"
+    }
+}

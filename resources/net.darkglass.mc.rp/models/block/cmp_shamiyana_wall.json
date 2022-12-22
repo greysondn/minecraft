@@ -1,0 +1,50 @@
+{
+    "loader": "custommodelpredicates:custommodelpredicates",
+    "base": {
+        "parent": "gdn_placeholders:block/block_figure_decoration"
+    },
+    "predicates": [
+        {
+            "type": "name",
+            "name": "Shamiyana Wall (Plain 00)",
+            "model": {
+                "parent": "net.darkglass.mc.rp:block/shamiyana_wall_00_plain"
+            }
+        },
+        {
+            "type": "name",
+            "name": "Shamiyana Wall (Pattern 00)",
+            "model": {
+                "parent": "net.darkglass.mc.rp:block/shamiyana_wall_00_pattern"
+            }
+        },
+        {
+            "type": "name",
+            "name": "Shamiyana Wall (Plain 01)",
+            "model": {
+                "parent": "net.darkglass.mc.rp:block/shamiyana_wall_01_plain"
+            }
+        },
+        {
+            "type": "name",
+            "name": "Shamiyana Wall (Pattern 01)",
+            "model": {
+                "parent": "net.darkglass.mc.rp:block/shamiyana_wall_01_pattern"
+            }
+        },
+        {
+            "type": "name",
+            "name": "Shamiyana Wall (Plain 02)",
+            "model": {
+                "parent": "net.darkglass.mc.rp:block/shamiyana_wall_02_plain"
+            }
+        },
+        {
+            "type": "name",
+            "name": "Shamiyana Wall (Pattern 02)",
+            "model": {
+                "parent": "net.darkglass.mc.rp:models/block/shamiyana_wall_02_pattern"
+            }
+        }
+    ]
+}
