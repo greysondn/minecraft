@@ -41,6 +41,5 @@
 - 
     # for some reason, craftvania has mobs that don't obey light levels.
     minlight: 8
-    mob:
-        - craftvania2:cvwerewolf
+    mod: craftvania2
     result: deny
