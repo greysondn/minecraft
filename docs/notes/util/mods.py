@@ -340,30 +340,13 @@ for _dep in _mdeps:
 # SorceryCraft - balanced magic?!!
 
 '''
-fabric
-------
-isometric renders
-kronhud
-real sleep
-simple hud utilities
-slippery walls
-smooth coasters
-color me outlines
-https://www.curseforge.com/minecraft/mc-mods/arrows-info
-https://www.curseforge.com/minecraft/mc-mods/firework-rocket-duration
-https://www.curseforge.com/minecraft/mc-mods/towelette                          universalize waterlogging
-
 absolutely
 ----------
 https://www.curseforge.com/minecraft/mc-mods/advanced-chimneys
 https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
 https://www.curseforge.com/minecraft/mc-mods/ageing-spawners
 https://www.curseforge.com/minecraft/mc-mods/aquaculture
-https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded
-https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters
 https://www.curseforge.com/minecraft/mc-mods/better-muffling
-https://www.curseforge.com/minecraft/mc-mods/botania
-https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
 https://www.curseforge.com/minecraft/mc-mods/colds-magic-mirror-forge
 https://www.curseforge.com/minecraft/mc-mods/color-me-outlines
 https://www.curseforge.com/minecraft/mc-mods/cultures
@@ -372,11 +355,9 @@ https://www.curseforge.com/minecraft/mc-mods/dimension-stacking-rifts           
 https://www.curseforge.com/minecraft/mc-mods/discernment
 https://www.curseforge.com/minecraft/mc-mods/dont-run-with-scissors
 https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged
-https://www.curseforge.com/minecraft/mc-mods/dynamictrees
 https://www.curseforge.com/minecraft/mc-mods/elemental-combat
 https://www.curseforge.com/minecraft/mc-mods/elenai-dodge-2
 https://www.curseforge.com/minecraft/mc-mods/everyday-commands
-https://www.curseforge.com/minecraft/mc-mods/flux-networks
 https://www.curseforge.com/minecraft/mc-mods/hardcore-torches-forge
 https://www.curseforge.com/minecraft/mc-mods/in-control
 https://www.curseforge.com/minecraft/mc-mods/infinite-pollution-filter
@@ -384,32 +365,19 @@ https://www.curseforge.com/minecraft/mc-mods/itemphysic
 https://www.curseforge.com/minecraft/mc-mods/jei-integration
 https://www.curseforge.com/minecraft/mc-mods/kobolds
 https://www.curseforge.com/minecraft/mc-mods/krypton-reforged
-https://www.curseforge.com/minecraft/mc-mods/langsplit
 https://www.curseforge.com/minecraft/mc-mods/linkingbooks
 https://www.curseforge.com/minecraft/mc-mods/mambience
-https://www.curseforge.com/minecraft/mc-mods/noluck                             who needs luck anyway
-https://www.curseforge.com/minecraft/mc-mods/open-loader                        forcefully loaded resource pack shipping
-https://www.curseforge.com/minecraft/mc-mods/paragliders
 https://www.curseforge.com/minecraft/mc-mods/pehkui
-https://www.curseforge.com/minecraft/mc-mods/pollutant-pump
-https://www.curseforge.com/minecraft/mc-mods/pollution-of-the-realms
 https://www.curseforge.com/minecraft/mc-mods/quickstack
 https://www.curseforge.com/minecraft/mc-mods/radon
 https://www.curseforge.com/minecraft/mc-mods/rpg-parties
 https://www.curseforge.com/minecraft/mc-mods/spare-parts                        modpack useless pieces
 https://www.curseforge.com/minecraft/mc-mods/tax-free-levels
 https://www.curseforge.com/minecraft/mc-mods/textrues-rubidium-options
-https://www.curseforge.com/minecraft/mc-mods/total-darkness
 https://www.curseforge.com/minecraft/mc-mods/worm-industries
-https://www.curseforge.com/minecraft/mc-mods/you-cant-see-me-forge              100% clear glass, like oldschool zawa exhibit glass
-
-baubles et al
--------------
-
 
 bugfix - bug
 ------------
-https://www.curseforge.com/minecraft/mc-mods/advancements-debug
 https://www.curseforge.com/minecraft/mc-mods/chunk-saving-fix
 https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks
 https://www.curseforge.com/minecraft/mc-mods/dispenser-crash-fix
@@ -443,26 +411,16 @@ https://www.curseforge.com/minecraft/mc-mods/villagerfollow                     
 building
 --------
 https://www.curseforge.com/minecraft/mc-mods/angel-block
-https://www.curseforge.com/minecraft/mc-mods/buildercraft                       C&B compatible
-https://www.curseforge.com/minecraft/mc-mods/chisel                             chisel proper
+https://www.curseforge.com/minecraft/mc-mods/chisel                             
 https://www.curseforge.com/minecraft/mc-mods/chunkborders                       better chunkborders visualization
 https://www.curseforge.com/minecraft/mc-mods/colourplate
 https://www.curseforge.com/minecraft/mc-mods/dungeon-based-spawners
 https://www.curseforge.com/minecraft/mc-mods/icu
 https://www.curseforge.com/minecraft/mc-mods/misc-tab
 https://www.curseforge.com/minecraft/mc-mods/obj-importer
-https://www.curseforge.com/minecraft/mc-mods/versatile-portals
 https://www.curseforge.com/minecraft/mc-mods/essential-modern-construction-block-32px-edition
 https://www.curseforge.com/minecraft/mc-mods/lantern-colors
 https://www.curseforge.com/minecraft/mc-mods/delicate-and-dainty
-
-
-building - light blocks
------------------------
-https://www.curseforge.com/minecraft/mc-mods/light-blocks-for-java-1-14-4
-https://www.curseforge.com/minecraft/mc-mods/light-block-forge
-https://www.curseforge.com/minecraft/mc-mods/light-it-up
-https://www.curseforge.com/minecraft/mc-mods/light-blocks-from-1-17
 
 building - sound
 ----------------
@@ -485,7 +443,6 @@ curious
 https://www.curseforge.com/minecraft/mc-mods/block-log
 https://www.curseforge.com/minecraft/mc-mods/cartographer
 https://www.curseforge.com/minecraft/mc-mods/composing
-https://www.curseforge.com/minecraft/mc-mods/dummy-players                      how far did it go? Can I message them?
 https://www.curseforge.com/minecraft/mc-mods/dynamic-difficulty
 https://www.curseforge.com/minecraft/mc-mods/fantasy-mounts
 https://www.curseforge.com/minecraft/mc-mods/game-of-life-3d-forge
@@ -498,8 +455,7 @@ https://www.curseforge.com/minecraft/mc-mods/modifiers
 https://www.curseforge.com/minecraft/mc-mods/more-death-messages
 https://www.curseforge.com/minecraft/mc-mods/potion-snowballs
 https://www.curseforge.com/minecraft/mc-mods/proxies
-https://www.curseforge.com/minecraft/mc-mods/quiver-redux                       better than my favorite?
-https://www.curseforge.com/minecraft/mc-mods/risingtides                        mostly animals
+https://www.curseforge.com/minecraft/mc-mods/risingtides                        
 https://www.curseforge.com/minecraft/mc-mods/simplified-commands
 https://www.curseforge.com/minecraft/mc-mods/traverse-reforged
 https://www.curseforge.com/minecraft/mc-mods/virus-disease-mod                  covid-19 as a mod?
@@ -516,7 +472,6 @@ https://www.curseforge.com/minecraft/mc-mods/blame
 enchantments
 ------------
 https://www.curseforge.com/minecraft/mc-mods/curse
-https://www.curseforge.com/minecraft/mc-mods/time-to-die                        Quite unique
 https://www.curseforge.com/minecraft/mc-mods/enchantable                        Enchantments by Mr. Crayfish
 
 extensions - AE2
@@ -542,25 +497,6 @@ eye candy
 https://www.curseforge.com/minecraft/mc-mods/soul-sand-grabbing-effect
 https://www.curseforge.com/minecraft/mc-mds/hyper-lighting-colored-light-core
 
-fabric
-------
-https://www.curseforge.com/minecraft/mc-mods/damage-threshold
-https://www.curseforge.com/minecraft/mc-mods/dihydrogen-monoxide-reloaded
-https://www.curseforge.com/minecraft/mc-mods/mechanix
-https://www.curseforge.com/minecraft/mc-mods/mubble                             but it's mit licensed
-https://www.curseforge.com/minecraft/mc-mods/quadz
-https://www.curseforge.com/minecraft/mc-mods/attach-leads-to-logs               fabric - tie off animal leads to logs
-https://www.curseforge.com/minecraft/mc-mods/bow-tie                            write datapacks in non-json formats
-
-holiday
--------
-https://www.curseforge.com/minecraft/mc-mods/linden-files                       halloween
-https://www.curseforge.com/minecraft/mc-mods/snowed-in                          christmas
-
-holiday - halloween
--------------------
-https://www.curseforge.com/minecraft/mc-mods/projectfrightmod
-
 imports - 1.17
 --------------
 https://www.curseforge.com/minecraft/mc-mods/lush-caves-and-axolotls            axolotls
@@ -584,11 +520,6 @@ https://www.curseforge.com/minecraft/mc-mods/scootys-luigis-mansion-mod
 imports - portal
 ----------------
 https://www.curseforge.com/minecraft/mc-mods/portal-blocks-remake
-https://www.curseforge.com/minecraft/mc-mods/portal-gels
-
-imports - risk of rain
-----------------------
-https://www.curseforge.com/minecraft/mc-mods/risk-of-rain-mod
 
 imports - scp
 -------------
@@ -603,26 +534,6 @@ just computer craft it
 https://www.curseforge.com/minecraft/mc-mods/communication                      chat box
 https://www.curseforge.com/minecraft/mc-mods/smart-observer                     observer, but for specific blocks
 https://www.curseforge.com/minecraft/mc-mods/universal-power-monitor-upm        little harder but sure it's doable
-
-just craft tweak it
--------------------
-https://www.curseforge.com/minecraft/mc-mods/more-baked-foods
-https://www.curseforge.com/minecraft/mc-mods/spill
-https://www.curseforge.com/minecraft/mc-mods/craftable-bell
-https://www.curseforge.com/minecraft/mc-mods/craftable-nametags
-https://www.curseforge.com/minecraft/mc-mods/crafteos
-https://www.curseforge.com/minecraft/mc-mods/crafting-glitches
-https://www.curseforge.com/minecraft/mc-mods/dungeon-discs
-https://www.curseforge.com/minecraft/mc-mods/easypaths
-https://www.curseforge.com/minecraft/mc-mods/gudunify
-https://www.curseforge.com/minecraft/mc-mods/instant-unify
-https://www.curseforge.com/minecraft/mc-mods/make-trident
-https://www.curseforge.com/minecraft/mc-mods/mo-recipes-a-mod-by-skittlq
-https://www.curseforge.com/minecraft/mc-mods/pheonixs-craftable-nametags
-https://www.curseforge.com/minecraft/mc-mods/turtle-shell-drop
-https://www.curseforge.com/minecraft/mc-mods/unified-resources
-https://www.curseforge.com/minecraft/mc-mods/wool-to-string
-https://www.curseforge.com/minecraft/mc-mods/apple-pie-ported
 
 just patchouli it
 -----------------
@@ -707,7 +618,6 @@ https://www.curseforge.com/minecraft/mc-mods/trap-chest                         
 modpack util
 ------------
 https://www.curseforge.com/minecraft/mc-mods/bigger-structures                  remove structure block limit
-https://www.curseforge.com/minecraft/mc-mods/block-renderer                     create reference png of block on demand
 https://www.curseforge.com/minecraft/mc-mods/block-swap
 https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
 https://www.curseforge.com/minecraft/mc-mods/build-guide
@@ -743,7 +653,6 @@ https://www.curseforge.com/minecraft/mc-mods/music-triggers
 https://www.curseforge.com/minecraft/mc-mods/nbt-ingredient-predicate           recipe partial predicate matching
 https://www.curseforge.com/minecraft/mc-mods/ob-tooltips
 https://www.curseforge.com/minecraft/mc-mods/potion-stacker                     configurable potion stacking
-https://www.curseforge.com/minecraft/mc-mods/quests-additions
 https://www.curseforge.com/minecraft/mc-mods/rarities
 https://www.curseforge.com/minecraft/mc-mods/resourceful-bees
 https://www.curseforge.com/minecraft/mc-mods/set-my-name
