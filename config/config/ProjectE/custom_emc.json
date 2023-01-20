@@ -1,4 +1,624 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+    "entries": [
+        {
+            "item": "FAKE|single_emc",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:cobblestone",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:granite",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:diorite",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:andesite",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:end_stone",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:netherrack",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:basalt",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:blackstone",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:dirt",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:sand",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:red_sand",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:snow",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:ice",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_bush",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:gravel",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:cactus",
+            "emc": 128024064000
+        },
+        {
+            "item": "minecraft:vine",
+            "emc": 128024064000
+        },
+        {
+            "item": "minecraft:cobweb",
+            "emc": 192036096000
+        },
+        {
+            "item": "minecraft:lily_pad",
+            "emc": 256048128000
+        },
+        {
+            "item": "#minecraft:small_flowers",
+            "emc": 256048128000
+        },
+        {
+            "item": "#minecraft:tall_flowers",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:red_mushroom",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:brown_mushroom",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:sugar_cane",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:bamboo",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:soul_sand",
+            "emc": 784147392000
+        },
+        {
+            "item": "minecraft:obsidian",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:crying_obsidian",
+            "emc": 12290310144000
+        },
+        {
+            "item": "minecraft:sponge",
+            "emc": 2048385024000
+        },
+        {
+            "item": "minecraft:grass",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:seagrass",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:kelp",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:sea_pickle",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:tall_grass",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:fern",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:large_fern",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:magma_block",
+            "emc": 2048385024000
+        },
+        {
+            "item": "minecraft:nether_sprouts",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:crimson_roots",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:warped_roots",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:weeping_vines",
+            "emc": 128024064000
+        },
+        {
+            "item": "minecraft:twisting_vines",
+            "emc": 128024064000
+        },
+        {
+            "item": "minecraft:crimson_fungus",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:warped_fungus",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:tube_coral_block",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:brain_coral_block",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:bubble_coral_block",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:fire_coral_block",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:horn_coral_block",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:dead_tube_coral_block",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:dead_brain_coral_block",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:dead_bubble_coral_block",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:dead_fire_coral_block",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:dead_horn_coral_block",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:tube_coral_fan",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:brain_coral_fan",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:bubble_coral_fan",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:fire_coral_fan",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:horn_coral_fan",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:dead_tube_coral_fan",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_brain_coral_fan",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_bubble_coral_fan",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_fire_coral_fan",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_horn_coral_fan",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:tube_coral",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:brain_coral",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:bubble_coral",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:fire_coral",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:horn_coral",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:dead_tube_coral",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_brain_coral",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_bubble_coral",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_fire_coral",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:dead_horn_coral",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:chorus_plant",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:chorus_flower",
+            "emc": 1536288768000
+        },
+        {
+            "item": "minecraft:chorus_fruit",
+            "emc": 3072577536000
+        },
+        {
+            "item": "#forge:seeds/wheat",
+            "emc": 256048128000
+        },
+        {
+            "item": "#forge:seeds/beetroot",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:melon_slice",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:sweet_berries",
+            "emc": 256048128000
+        },
+        {
+            "item": "#forge:crops/wheat",
+            "emc": 384072192000
+        },
+        {
+            "item": "#forge:crops/nether_wart",
+            "emc": 384072192000
+        },
+        {
+            "item": "minecraft:apple",
+            "emc": 2048385024000
+        },
+        {
+            "item": "minecraft:pumpkin",
+            "emc": 2304433152000
+        },
+        {
+            "item": "minecraft:honey_bottle",
+            "emc": 768144384000
+        },
+        {
+            "item": "minecraft:porkchop",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:beef",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:chicken",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:rabbit",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:mutton",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:cod",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:salmon",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:tropical_fish",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:pufferfish",
+            "emc": 1024192512000
+        },
+        {
+            "item": "#forge:crops/carrot",
+            "emc": 1024192512000
+        },
+        {
+            "item": "#forge:crops/beetroot",
+            "emc": 1024192512000
+        },
+        {
+            "item": "#forge:crops/potato",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:string",
+            "emc": 192036096000
+        },
+        {
+            "item": "minecraft:rotten_flesh",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:slime_ball",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:egg",
+            "emc": 512096256000
+        },
+        {
+            "item": "minecraft:scute",
+            "emc": 1536288768000
+        },
+        {
+            "item": "minecraft:turtle_egg",
+            "emc": 3072577536000
+        },
+        {
+            "item": "minecraft:feather",
+            "emc": 768144384000
+        },
+        {
+            "item": "minecraft:rabbit_hide",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:rabbit_foot",
+            "emc": 2048385024000
+        },
+        {
+            "item": "minecraft:spider_eye",
+            "emc": 2048385024000
+        },
+        {
+            "item": "minecraft:phantom_membrane",
+            "emc": 3072577536000
+        },
+        {
+            "item": "minecraft:gunpowder",
+            "emc": 3072577536000
+        },
+        {
+            "item": "minecraft:skeleton_skull",
+            "emc": 4096770048000
+        },
+        {
+            "item": "minecraft:zombie_head",
+            "emc": 4096770048000
+        },
+        {
+            "item": "minecraft:creeper_head",
+            "emc": 4096770048000
+        },
+        {
+            "item": "minecraft:ender_pearl",
+            "emc": 16387080192000
+        },
+        {
+            "item": "minecraft:nautilus_shell",
+            "emc": 16387080192000
+        },
+        {
+            "item": "minecraft:blaze_rod",
+            "emc": 24580620288000
+        },
+        {
+            "item": "minecraft:shulker_shell",
+            "emc": 32774160384000
+        },
+        {
+            "item": "minecraft:ghast_tear",
+            "emc": 65548320768000
+        },
+        {
+            "item": "minecraft:trident",
+            "emc": 262417325184000
+        },
+        {
+            "item": "minecraft:heart_of_the_sea",
+            "emc": 524386566144000
+        },
+        {
+            "item": "minecraft:dragon_egg",
+            "emc": 4195092529152000
+        },
+        {
+            "item": "minecraft:saddle",
+            "emc": 3072577536000
+        },
+        {
+            "item": "minecraft:name_tag",
+            "emc": 3072577536000
+        },
+        {
+            "item": "#minecraft:music_discs",
+            "emc": 32774160384000
+        },
+        {
+            "item": "minecraft:flint",
+            "emc": 64012032000
+        },
+        {
+            "item": "minecraft:coal",
+            "emc": 2048385024000
+        },
+        {
+            "item": "#forge:gems/quartz",
+            "emc": 4096770048000
+        },
+        {
+            "item": "minecraft:prismarine_shard",
+            "emc": 4096770048000
+        },
+        {
+            "item": "minecraft:prismarine_crystals",
+            "emc": 8193540096000
+        },
+        {
+            "item": "minecraft:ink_sac",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:cocoa_beans",
+            "emc": 1024192512000
+        },
+        {
+            "item": "minecraft:lapis_lazuli",
+            "emc": 13826598912000
+        },
+        {
+            "item": "#forge:gems/emerald",
+            "emc": 262193283072000
+        },
+        {
+            "item": "#forge:nether_stars",
+            "emc": 2228642906112000
+        },
+        {
+            "item": "minecraft:clay_ball",
+            "emc": 256048128000
+        },
+        {
+            "item": "minecraft:bone",
+            "emc": 2304433152000
+        },
+        {
+            "item": "minecraft:snowball",
+            "emc": 16003008000
+        },
+        {
+            "item": "minecraft:filled_map",
+            "emc": 23556427776000
+        },
+        {
+            "item": "#minecraft:logs",
+            "emc": 512096256000
+        },
+        {
+            "item": "#minecraft:planks",
+            "emc": 128024064000
+        },
+        {
+            "item": "#minecraft:saplings",
+            "emc": 512096256000
+        },
+        {
+            "item": "#forge:rods/wooden",
+            "emc": 64012032000
+        },
+        {
+            "item": "#minecraft:leaves",
+            "emc": 16003008000
+        },
+        {
+            "item": "#minecraft:wool",
+            "emc": 768144384000
+        },
+        {
+            "item": "minecraft:netherite_scrap",
+            "emc": 196644962304000
+        },
+        {
+            "item": "#forge:gems/diamond",
+            "emc": 131096641536000
+        },
+        {
+            "item": "#forge:dusts/redstone",
+            "emc": 1024192512000
+        },
+        {
+            "item": "#forge:dusts/glowstone",
+            "emc": 6145155072000
+        },
+        {
+            "item": "#forge:ingots/iron",
+            "emc": 4096770048000
+        },
+        {
+            "item": "#forge:ingots/uranium",
+            "emc": 65548320768000
+        },
+        {
+            "item": "#forge:gems/ruby",
+            "emc": 32774160384000
+        },
+        {
+            "item": "#forge:gems/sapphire",
+            "emc": 32774160384000
+        },
+        {
+            "item": "#forge:gems/peridot",
+            "emc": 32774160384000
+        }
+    ]
 }
