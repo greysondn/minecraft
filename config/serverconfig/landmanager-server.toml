@@ -1,0 +1,36 @@
+#Whether non-op players can claim chunks using '/lm claim'
+disableClaiming = false
+#Whether non-op players in creative can break/place blocks in any area
+creativeIgnoresProtection = true
+#The max number of areas a player can own
+#Use -1 for no limit
+#Range: > -1
+maxAreasCanOwn = -1
+#Can passive entities spawn in global spaces
+canPassiveSpawn = true
+#Can hostile entities spawn in global spaces
+canHostileSpawn = true
+#Can explosions destroy global blocks
+canExplosionsDestroyBlocks = true
+#Can players interact with global blocks
+canPlayersInteract = true
+#Can players break global blocks
+canPlayersBreakBlocks = true
+#Can players place global blocks
+canPlayersPlaceBlocks = true
+#If true then the 'claim' command will create a request rather than take instant effect
+#An OP will then need to use the 'approve' command to accept the request
+claimRequest = false
+#If area owners can toggle whether passive entities can spawn in the area
+passiveSpawning = false
+#If area owners can toggle whether hostile entities can spawn in the area
+hostileSpawning = false
+#If area owners can toggle whether explosions can destroy blocks in the area
+explosions = false
+#If area owners can toggle whether other players can interact (right click) with blocks in the area
+interactions = false
+#If non-op players can use '/lm tool' to get the admin tool for creating areas
+tool = false
+#If area owners can rename their areas
+rename = false
+

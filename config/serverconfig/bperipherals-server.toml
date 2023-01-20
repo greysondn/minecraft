@@ -1,0 +1,16 @@
+#The maximum Database Disks size in kibibytes ( 1 KiB = 1024 Bytes ).
+#Range: > 1
+max_database_size = 1024
+#The maximum length of randomBytes that can be generated.
+#Range: > 1
+max_random_bytes_size = 1024
+#The maximum size of data in a Mag Card.
+#Range: > 1
+max_mag_card_data = 32
+#The maximum transfer rate that can be set in an FE Meter. The addition of this and fe_meter_internal_buffer_size **MUST** be BELOW 2147483647, or else THIS WILL CORRUPT YOUR WORLD
+#Range: > 1
+max_fe_meter_transfer_rate = 32000
+#The size of FE Meters internal energy buffer.
+#Range: > 1
+fe_meter_internal_buffer_size = 64000
+

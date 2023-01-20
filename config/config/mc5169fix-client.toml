@@ -1,0 +1,6 @@
+
+[client]
+	#Render distance of text on signs
+	#Range: 0 ~ 512
+	text_render_distance = 16
+
