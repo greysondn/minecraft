@@ -57,7 +57,7 @@
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.03
+		Boost = 0.01
 
 	[mob.blight]
 		#Chance that the mob has of becoming a blight - 0 will effectively deactivate blight
@@ -69,7 +69,7 @@
 		#Xp scaling for blights, 3 will give 3 more times more xp then another mob on the same difficulty
 		maxBoost = 3.0
 		#Multiplier for blight difficulty, 2 will make blights have stats equal to 2 * current difficulty
-		blightModifier = 2.0
+		blightModifier = 1.5
 
 		[[mob.blight.potionEffects]]
 			potion = "minecraft:fire_resistance"
@@ -85,19 +85,19 @@
 
 		[[mob.blight.potionEffects]]
 			potion = "minecraft:speed"
-			level = 4
+			level = 1
 			minDifficulty = 0
 			durationInMinutes = 5.0
 
 		[[mob.blight.potionEffects]]
 			potion = "minecraft:strength"
-			level = 2
+			level = 1
 			minDifficulty = 0
 			durationInMinutes = 5.0
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
-		hostile = 0.375
+		hostile = 0.10
 		peaceful = 0.025
 
 	[[mob.randomPotionEffects]]
@@ -108,7 +108,7 @@
 
 	[[mob.randomPotionEffects]]
 		potion = "minecraft:speed"
-		level = 2
+		level = 1
 		minDifficulty = 50
 		durationInMinutes = 10.0
 
@@ -153,7 +153,7 @@
 		#settings for hp scaling by xp level
 		[player.health.xp]
 			#How many levels it takes for an hp increase
-			levelAmount = 1000
+			levelAmount = 100000
 			#On hp increase, how much hp is gained
 			hpAmount = 1
 
@@ -200,12 +200,12 @@
 	#The minimum difficulty value a player can have. This can be smaller from startingValue.
 	minValue = 0.0
 	#The maximum difficulty value a player can have.
-	maxValue = 1000.0
+	maxValue = 1000000.0
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 0.0011575
+	changePerSecond = 0.0
 	#Distance-based area modes will multiply distance by this value to get difficulty
-	distanceFactor = 0.0025
+	distanceFactor = 0.0
 	#Determines how difficulty is calculated.
 	#WEIGHTED_AVERAGE:
 	#weighted average of players difficulty based on distance - players further away from an area will have less of an impact
@@ -238,7 +238,7 @@
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
 		multiplier = 0.0
 		#If true, a comment will appear to notify when you are considered afk
-		message = true
+		message = false
 		#Time in seconds before afk change kicks in
 		time = 120.0
 
@@ -246,7 +246,7 @@
 	#putting in -difficulty- produces no change, putting 0 will reset difficulty after this action
 	[difficulty.mutators]
 		#EvalEx expression: A blight is killed by a player
-		onBlightKilled = "difficulty - 25"
+		onBlightKilled = "difficulty - 5"
 		#EvalEx expression: A boss is killed by a player
 		onBossKilled = "difficulty - 50"
 		#EvalEx expression: A normal hostile mob is killed by a player
@@ -256,7 +256,7 @@
 		#EvalEx expression: A player killed another player
 		onPlayerKilled = "difficulty + 1.0"
 		#EvalEx expression: A player dies
-		onPlayerDeath = "difficulty - 10"
+		onPlayerDeath = "difficulty - 100"
 		#EvalEx expression: A player sleeps in a bed
 		onPlayerSleep = "difficulty"
 
