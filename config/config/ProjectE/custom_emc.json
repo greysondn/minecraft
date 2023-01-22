@@ -619,6 +619,10 @@
         {
             "item": "#forge:gems/peridot",
             "emc": 32774160384000
+        },
+        {
+            "item": "fluxnetworks:flux_dust",
+            "emc": 1024192512000
         }
     ]
 }
