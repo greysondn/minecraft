@@ -37,7 +37,7 @@
 		#Any effect that has a lower duration than this will not stack, so this will affect splash potions as there duration depends on how much of the splash you get
 		#If allowForAllEffectSources=false this has no effect
 		#Range: 0 ~ 24000
-		minDurationStackValue = 40
+		minDurationStackValue = 2400
 		#Should effects stack on all entities or just players
 		#Set to 'false' to only allow stacking on players
 		#If allowForAllEffectSources=false this has no effect
