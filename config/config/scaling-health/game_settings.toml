@@ -46,8 +46,8 @@
 		spawner = 0.3
 
 		[mob.health.multiplier]
-			passive = 0.375
-			hostile = 0.375
+			passive = 0.125
+			hostile = 0.125
 
 	[mob.damage]
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
@@ -63,7 +63,7 @@
 		#Chance that the mob has of becoming a blight - 0 will effectively deactivate blight
 		#The equation is : chance * difficulty/maxDifficulty
 		#meaning at 20% of maxDiff there is chance/5 chances of the mob being blight 1% using default value
-		chance = 0.05
+		chance = 0.25
 		#Notify everyone that a blight died in combat
 		notifyOnDeath = true
 		#Xp scaling for blights, 3 will give 3 more times more xp then another mob on the same difficulty
@@ -200,7 +200,7 @@
 	#The minimum difficulty value a player can have. This can be smaller from startingValue.
 	minValue = 0.0
 	#The maximum difficulty value a player can have.
-	maxValue = 1000000.0
+	maxValue = 1000.0
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
 	changePerSecond = 0.0
