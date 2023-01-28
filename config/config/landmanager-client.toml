@@ -15,7 +15,7 @@ areaBoxEdgeThickness = 0.025
 #Whether to render area box sides when rendering nearby areas
 areaBoxNearbySides = true
 #Whether title messages should be displayed when moving into a different area
-titleOnAreaChange = true
+titleOnAreaChange = false
 #The colour of the area change title when you move into the Wilderness
 #Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
 titleColourWilderness = "GRAY"
