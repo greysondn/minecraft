@@ -24,7 +24,14 @@
 		#A list of effects max amplifier & duration caps.
 		#Default max amplifier is 50 & duration is 30000 (25m).
 		#Format: modid:potion_effect_name|amplifier_cap|duration_cap, Example: ["minecraft:jump_boost|94|24000", "minecraft:speed|200|72000"]
-		potionEffectCaps = ["minecraft:speed|200|72000", "minecraft:jump_boost|94|24000"]
+		potionEffectCaps = [
+            "minecraft:jump_boost|1|72000",
+            "minecraft:speed|1|72000",
+            "minecraft:regeneration|1|72000",
+            "minecraft:resistance|1|72000",
+            "minecraft:strength|1|72000",
+            "minecraft:wither|1|72000"
+        ]
 
 	[settings.allowForAllEffectSources]
 		#Should ambient effects stack
