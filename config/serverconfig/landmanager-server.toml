@@ -11,7 +11,7 @@ canPassiveSpawn = true
 #Can hostile entities spawn in global spaces
 canHostileSpawn = true
 #Can explosions destroy global blocks
-canExplosionsDestroyBlocks = true
+canExplosionsDestroyBlocks = false
 #Can players interact with global blocks
 canPlayersInteract = true
 #Can players break global blocks
