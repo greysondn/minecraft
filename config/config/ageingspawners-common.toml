@@ -3,7 +3,7 @@
 [General]
 	#Decides whether the spawner is on blacklist or whitelist-only mode [Default: WHITELIST]
 	#Allowed Values: BLACKLIST, WHITELIST
-	spawnerMode = "WHITELIST"
+	spawnerMode = "BLACKLIST"
 
 #Whitelist settings
 [Whitelist]
